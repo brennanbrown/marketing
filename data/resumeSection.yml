@@ -1,8 +1,8 @@
 ---
 enable: true
-topTitle: My Resume
+topTitle: Get to know my background.
 title: >
-  ## My Expertises
+  ## My Resume
 
   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore  
 
@@ -15,44 +15,52 @@ tab2Target: experience
 
 education:
   - content: >
-      #### Master in Arts
+      ### Bachelor of Arts, English Honours
+
+      #### Mount Royal University
+
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+    time: September 2021 — June 2025
+  - content: >
+      ### Growth Marketing Program
+
+      #### OnRamp Bootcamp
+
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+    time: May 2022 — September 2022
+  - content: >
+      ### Fullstack Web Development Program
+
+      #### InceptionU Bootcamp
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
     time: 2008-2010
   - content: >
-      #### Master in Arts
+      ### Various Courses, Software Development
+
+      #### Southern Alberta Institute of Technology
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
-      #### Master in Arts
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
-      #### Master in Arts
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+    time: 2016 — 2017
 
 experience:
   - content: >
-      #### Umbrella co. 
+      ### Umbrella co. 
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
     time: 2016-Present
   - content: >
-      #### Aperture Science 
+      ### Aperture Science 
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
     time: 2010-2016
   - content: >
-      #### ACME Inc. 
+      ### ACME Inc. 
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
     time: 2005-2010
   - content: >
-      #### LexCorp 
+      ### LexCorp 
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
     time: 2001-2005
