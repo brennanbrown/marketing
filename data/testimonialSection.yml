@@ -1,19 +1,36 @@
 ---
 enable: true
-topTitle: Testimonials
+topTitle: Here's what people are saying.
 title: >
-  ## What People Say About Me?
+  ## Testimonials
 
 testimonial:
-  - name: Ryan Cook
-    comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna.
-    time: Jan 20, 2020
+  - name: Candice Tate, 2021 VA of the Year
+    comment: Brennan is an absolute joy to work with.
+      He’s extremely knowledgeable and able to apply his expertise with data to any project.
+      Not only does his technical expertise shine through, but he also brings creative ideas to his projects.
+      Glad that I was able to share a cohort!
+    time: September 4th, 2022
     star: 5
-  - name: Justin Trudo
-    comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna.
-    time: Jan 16, 2020
+  - name: Andrew Bizon, P. Eng.
+    comment: Brennan was a fun and instructive member of the InceptionU cohort,
+      I feel lucky to have worked with him and gained from his skills as a full stack developer.
+      I can without hesitation recommend him for any full stack, front end or back end role.
+      Any software company would be fortunate to have him join their team.
+    time: September 21st, 2020
+    star: 5
+  - name: Roman Mirakhmedov, Principle Solutions Architect at AWS
+    comment:
+      Brennan acquired a wealth of new knowledge and skills through the program at InceptionU and successfully presented
+      his front end learning project that included JavaScript, React.js and some backend integrations.
+      I wish Brennan all the best in his technology journey, and I am confident in his success!
+    time: August 6th, 2020
     star: 4
-  - name: Franky Filth
-    comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt labore dolore magna.
-    time: Mar 08, 2020
-    star: 3
+  - name: Larry Shumlich
+    comment:
+      As the Tech Lead for the EvolveU Full Stack Development Program for the 4th Cohort,
+      I would like to congratulate Brennan on completing the Front-End curriculum at InceptionU.
+      This included JavaScript (Syntax, Logic, Events, DOM, Data Structures, Arrays, Objects/Dictionaries, Linked Lists, State Management)
+      I wish him the best in the technical community.
+    time: August 6th, 2020
+    star: 4

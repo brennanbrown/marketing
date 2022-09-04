@@ -1,8 +1,8 @@
 ---
 enable: true
-topTitle: Working Area
+topTitle: What I can do for you.
 title: >
-  ## Creative Services
+  ## My Services
 
   Enjoy team diversity and increase their networks among others people in
   various fields by provided.
@@ -10,36 +10,25 @@ service:
   - content: >
       #### UI/UX Design 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/ui-ux.svg
+      I design and develop user-friendly interfaces that are both aesthetically pleasing and highly functional. 
+      I take a user-centered approach to my work, making sure that your customers will have a positive experience using your product.
+    image: images/service/branding.svg
   - content: >
       #### Web Development 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      I specialize in custom JAMStack web development, from small business websites to enterprise-level applications. 
+      I utilize Headless CMS tools and static frameworks to create websites that are both user-friendly and extremely fast.
     image: images/service/web.svg
   - content: >
-      #### Creative Design 
+      #### Content Strategy
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      I help businesses create and implement content strategies that are aligned with their business goals. 
+      I have a deep understanding of how to create and curate content that new and existing customers will find valuable.
+
     image: images/service/creative.svg
   - content: >
-      #### Branding
+      #### Blog Writing
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/branding.svg
-  - content: >
-      #### UI/UX Design
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      Are you looking for a high-quality, well-written blog post? Look no further! 
+      I can help you create engaging content that will resonate with your audience, writing catchy headlines and interesting stories.
     image: images/service/ui-ux.svg
-  - content: >
-      #### Web Development
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/web.svg

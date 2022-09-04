@@ -1,13 +1,12 @@
 ---
 enable: true
-topTitle: Hi there, I'm Brennan!
+topTitle: DIGITAL MARKETING & WEB DEVELOPMENT
 content: >
-  # I am here for your personal business
+  # Brennan Kenneth Brown
 
-  Enjoy team diversity and increase their networks among others people
-  in various fields by
+  Strategic thinker and problem solver, with a passion for helping businesses and organizations achieve their goals.
 buttonName: Contact me
 buttonURL: contact
-image: images/hero/2960351.jpg
+image: images/hero/hero-image.jpg
 videoThumb: images/hero/popup-thumb.png
 videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
