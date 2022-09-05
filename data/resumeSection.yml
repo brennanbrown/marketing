@@ -4,10 +4,8 @@ topTitle: Get to know my background.
 title: >
   ## My Resume
 
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore  
+  Take a look at my unique work history and education that lead me to where I am today. I take pride in being an autodidact, lifelong-learner and always approach materials with a beginner's mindset.
 
-
-  Magna aliquyam erat, sed diam voluptua. At vero eos accusam justo.
 tab1Name: Education
 tab2Name: Experiences
 tab1Target: education
@@ -19,48 +17,68 @@ education:
 
       #### Mount Royal University
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+      **Current GPA: 3.9**
+
+      - Member of the Golden Key Honour Society
+
+      - President of the Creative Writing Club
+
+      - Contributor to The Reflector Newspaper
     time: September 2021 — June 2025
-  - content: >
-      ### Growth Marketing Program
-
-      #### OnRamp Bootcamp
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: May 2022 — September 2022
-  - content: >
-      ### Fullstack Web Development Program
-
-      #### InceptionU Bootcamp
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
   - content: >
       ### Various Courses, Software Development
 
       #### Southern Alberta Institute of Technology
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2016 — 2017
+      - Hardware, Operating System, Networking, and Programming Essentials
+
+      - Business Dynamic, Communications and Presentation Skills
+
+      - User-Interface and MySQL Database Design
+
+      - Object Oriented Programming, Website Development Fundamentals
+    time: September 2016 — June 2017
 
 experience:
   - content: >
-      ### Umbrella co. 
+      ### Growth Marketing Program
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2016-Present
+      #### [OnRamp / 321 Growth Academy](https://joinonramp.com)
+
+      - Created detailed buyer personas and mapping sales journey funnel & content strategy.
+      
+      - Identified target metrics using HubSpot CRM to support ongoing performance.
+      
+      - Researched and wrote original articles for thought leadership and reinforcing the unique
+      value proposition and addressing reader's pain points - leading to sales generation.
+
+      - Designed lean email and social media campaigns to convert long-time subscribers into
+      qualified prospects.
+
+    time: May 2022 — September 2022
   - content: >
-      ### Aperture Science 
+      ### WordPress Developer / Content Writer
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2010-2016
+      #### [The Wander Notebook](https://wandernotebook.com)
+
+      - Researched, ideated, & published essays on productivity, self-development, happiness.
+
+      - Specialized in marketing with SEO keyword strategy, lead generation, and conversion
+      rate optimization.
+
+      - Focused on value proposition development and personal branding.
+
+      - Initially began on Medium, migrating to custom-built WordPress site.
+    time: September 2020 — Present
   - content: >
-      ### ACME Inc. 
+      ### Fullstack Web Development Program
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2005-2010
-  - content: >
-      ### LexCorp 
+      #### [InceptionU / EvolveU](https://inceptionu.com)
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2001-2005
+      - Vanilla JavaScript, React.js, Node.js, Python, Flask, PostgreSQL, NoSQL, C#.
+
+      - Test Driven Development, Pair Programming, Debugging, Wire-framing.
+
+      - Agile Management, Design Thinking, Project Management.
+    time: February 2020 — August 2020
+

@@ -1,10 +1,10 @@
 <head>
 
   <meta charset="utf-8" />
-  <title>{{ .Title }}</title>
+  <title>{{ .Title }} | Brennan Kenneth Brown</title>
 
-  {{ "<!-- Created by: Brennan Kenneth Brown." | safeHTML }}
-  {{ "     Thanks for reading the source! -->" | safeHTML }}
+  {{ "<!-- Created by: Brennan Kenneth Brown. -->" | safeHTML }}
+  {{ "<!--     Thanks for reading the source! -->" | safeHTML }}
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,15 +26,31 @@
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
   <link rel="icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/apple-touch-icon.png" | absURL }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon-32x32.png" | absURL}}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicon-16x16.png" | absURL}}">
+  <link rel="manifest" href="/site.webmanifest">
   {{ with site.Params.googleAnalytics }}
   {{ "<!-- Google Analytics -->" | safeHTML }}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    function gtag() {dataLayer.push( arguments );}
+    gtag( 'js', new Date() );
 
-    gtag('config', '{{ . }}');
+    gtag( 'config', '{{ . }}' );
   </script>
   {{ end }}
+  <meta property="og:title" content="Brennan Kenneth Brown: Digital Marketer & Web Developer">
+  <meta property="og:site_name" content="Brennan's Digital Marketing Portfolio">
+  <meta property="og:url" content="https://marketing.brennanbrown.ca" />
+  <meta property="og:description" content="Looking for content strategy or JAMStack web development in the Alberta area
+    and beyond? Look no further. Hi, I'm Brennan. I'm a 26-year-old Métis digital marketer and open-source webdev. I
+    would also love to volunteer my time to contributing to open-source projects! I love creating and tinkering with
+    small, static websites and projects. I'm a big proponent of putting an emphasis on accessibility and the A11y
+    project in web development. I'm always looking to work with people that are hopeless idealists like me, as well as
+    who are interested in creating and working on cool, interesting, and meaningful projects! Shoot me an e-mail at mail@brennanbrown.ca if that
+    sounds like your cup of tea.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://i.postimg.cc/c4ZxN9WT/marketing-website.png">
 </head>

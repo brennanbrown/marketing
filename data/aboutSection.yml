@@ -1,11 +1,10 @@
 ---
 enable: true
-topTitle: Get to know me.
+topTitle: Get to know your next hire.
 title: >
   ## About Me
 
-  Enjoy team diversity and increase their networks among others people in
-  various fields by provided.
+  (Note: I'm ~~just a bit of~~ a perfectionist, so rest assured that your project will be done right the first time.)
 content: >
   ## I develop & design content projects.
 
@@ -15,9 +14,9 @@ content: >
 
   - ✊🏾 Looking to empower marginalized voices and emphasize stories that matter.
 
-  - 📝 Love developing lean marketing campaigns with content strategy and copywriting.
+  - 📝 Love developing **lean marketing campaigns** with content strategy and copywriting.
 
-  - 💻 Knowledgeable in multiple front-end frameworks and ecosystems.
+  - 💻 Knowledgeable in multiple **front-end frameworks** and ecosystems.
 
   - ♿️ Advocate for accessibility and the [A11y project](https://www.a11yproject.com/) in web development.
 
