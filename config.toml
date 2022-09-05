@@ -35,21 +35,18 @@ name = "Development Portfolio"
 url = "https://brennanbrown.ca"
 weight = 1
 [[menu.sitemap]]
-name = "Frequently Asked Questions"
-url = "#"
-weight = 2
-[[menu.sitemap]]
 name = "Resume/CV"
 url = "Resume.pdf"
+weight = 2
+[[menu.sitemap]]
+name = "Source Code"
+url = "https://github.com/brennanbrown/marketing"
 weight = 3
 [[menu.sitemap]]
 name = "Contact"
 url = "contact"
 weight = 4
-[[menu.sitemap]]
-name = "Source Code"
-url = "https://github.com/brennanbrown/marketing"
-weight = 5
+
 
 [params]
 blogPageURL = "blog"
@@ -58,7 +55,7 @@ copyright = "All Rights Reserved. Copyright © Brennan Kenneth Brown 2020 -- 202
 footerLogo = "images/contact/footer-logo.png"
 # We're using formspree.io for form handling, paste your formspree url below
 fabformURL  = "https://fabform.io/f/2ORFL1T"
-googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
+googleAnalytics = "G-GRLVE97S23"
 logo = "images/site-navigation/logo.png"
 
 [params.address]
