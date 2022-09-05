@@ -2,7 +2,7 @@ baseURL = "https://marketing.brennanbrown.ca/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
-title = "Brennan Kenneth Brown"
+title = "Digital Marketing & Web Development"
 # Main Menu
 [[menu.main]]
 name = "Home"
@@ -25,34 +25,26 @@ name = "Resume"
 url = "#resume"
 weight = 5
 [[menu.main]]
-name = "Skills"
-url = "#skills"
-weight = 6
-[[menu.main]]
-name = "Blog"
-url = "#blog"
-weight = 7
-[[menu.main]]
 name = "Contact"
-url = "#contact"
-weight = 8
+url = "contact"
+weight = 6
 
 # Sitemap Menu
 [[menu.sitemap]]
-name = "About me"
-url = "about"
+name = "Development Portfolio"
+url = "https://brennanbrown.ca"
 weight = 1
 [[menu.sitemap]]
-name = "Frequently Ask Question"
+name = "Frequently Asked Questions"
 url = "#"
 weight = 2
 [[menu.sitemap]]
-name = "Privacy & Policy"
-url = "#"
+name = "Resume/CV"
+url = "Resume.pdf"
 weight = 3
 [[menu.sitemap]]
-name = "Latest Article"
-url = "#"
+name = "Contact"
+url = "contact"
 weight = 4
 [[menu.sitemap]]
 name = "Source Code"
@@ -83,18 +75,26 @@ pinImage = "images/pin.png"
 
 # Social icons
 [[params.social]]
-icon = "fa-facebook-official"
-url = "https://www.facebook.com/"
+icon = "fa-github-alt"
+url = "https://www.github.com/brennanbrown"
 weight = 1
 [[params.social]]
-icon = "fa-linkedin-square"
-url = "https://www.linkedin.com/"
+icon = "fa-linkedin"
+url = "https://www.linkedin.com/in/brennankbrown"
 weight = 2
 [[params.social]]
-icon = "fa-pinterest-square"
-url = "https://www.pinterest.com/"
+icon = "fa-tumblr"
+url = "https://bkpoetry.com/"
 weight = 3
 [[params.social]]
-icon = "fa-twitter-square"
-url = "https://twitter.com/"
+icon = "fa-medium"
+url = "blog.brennanbrown.ca"
 weight = 4
+[[params.social]]
+icon = "fa-wordpress"
+url = "https://wanderenotebook.com"
+weight = 5
+[[params.social]]
+icon = "fa-envelope"
+url = "mailto:mail@brennanbrown.ca"
+weight = 6

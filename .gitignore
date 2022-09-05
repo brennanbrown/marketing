@@ -14,14 +14,15 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
-*.DS_Store
+.vscode
+.DS_Store
 node_modules
 dist
 tmp
 
 # Generated files by hugo
-/public/
-/resources/_gen/
+public
+resources
 /assets/jsconfig.json
 hugo_stats.json
 

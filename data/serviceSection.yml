@@ -8,12 +8,6 @@ title: >
   various fields by provided.
 service:
   - content: >
-      #### UI/UX Design 
-
-      I design and develop user-friendly interfaces that are both aesthetically pleasing and highly functional. 
-      I take a user-centered approach to my work, making sure that your customers will have a positive experience using your product.
-    image: images/service/branding.svg
-  - content: >
       #### Web Development 
 
       I specialize in custom JAMStack web development, from small business websites to enterprise-level applications. 
@@ -32,3 +26,9 @@ service:
       Are you looking for a high-quality, well-written blog post? Look no further! 
       I can help you create engaging content that will resonate with your audience, writing catchy headlines and interesting stories.
     image: images/service/ui-ux.svg
+  - content: >
+      #### UI/UX Design 
+
+      I design and develop user-friendly interfaces that are both aesthetically pleasing and highly functional. 
+      I take a user-centered approach to my work, making sure that your customers will have a positive experience using your product.
+    image: images/service/branding.svg
