@@ -85,7 +85,7 @@ url = "https://bkpoetry.com/"
 weight = 3
 [[params.social]]
 icon = "fa-medium"
-url = "blog.brennanbrown.ca"
+url = "https://brennanbrown.medium.com"
 weight = 4
 [[params.social]]
 icon = "fa-wordpress"
