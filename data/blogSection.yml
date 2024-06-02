@@ -1,9 +1,9 @@
 ---
-enable: false
-topTitle: Read some of my recent articles.
+enable: true
+topTitle: Read some of my articles, essays, and stories.
 title: >
-  ## My Blog
+  ## Writing Portfolio
 
-  Enjoy team diversity and increase their networks among others people in various fields by provided.
+  I write in a wide variery of genres and topics. From personal essays to practical guides on productivity and content creation, each piece reflects my dedication to being thoughtful and impactful. Click on the titles to read more.
 
 buttonTarget: blog
