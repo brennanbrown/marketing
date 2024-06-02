@@ -13,21 +13,25 @@ name = "About"
 url = "#about"
 weight = 2
 [[menu.main]]
-name = "Service"
+name = "Services"
 url = "#service"
 weight = 3
 [[menu.main]]
 name = "Work"
-url = "#portfolio"
+url = "portfolio"
 weight = 4
+[[menu.main]]
+name = "Writings"
+url = "blog"
+weight = 5
 [[menu.main]]
 name = "Resume"
 url = "#resume"
-weight = 5
+weight = 6
 [[menu.main]]
 name = "Contact"
 url = "contact"
-weight = 6
+weight = 7
 
 # Sitemap Menu
 [[menu.sitemap]]
@@ -49,9 +53,9 @@ weight = 4
 
 
 [params]
-blogPageURL = "blog"
+blogPageURL = "writing"
 contactLink = "contact"
-copyright = "All Rights Reserved. Copyright © Brennan Kenneth Brown 2020 -- 2022"
+copyright = "All Rights Reserved. Copyright © Brennan Kenneth Brown 2020 -- 2024"
 footerLogo = "images/contact/footer-logo.png"
 # We're using formspree.io for form handling, paste your formspree url below
 fabformURL  = "https://fabform.io/f/2ORFL1T"
@@ -88,8 +92,8 @@ icon = "fa-medium"
 url = "https://brennanbrown.medium.com"
 weight = 4
 [[params.social]]
-icon = "fa-wordpress"
-url = "https://wanderenotebook.com"
+icon = "fa-graduation-cap"
+url = "https://www.researchgate.net/profile/Brennan-Brown-2"
 weight = 5
 [[params.social]]
 icon = "fa-envelope"

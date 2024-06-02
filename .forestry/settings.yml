@@ -24,7 +24,7 @@ sections:
     label: Testimonials
   - type: document
     path: data/blogSection.yml
-    label: Blog Section
+    label: Writing Portfolio
   - type: directory
     path: content/portfolio
     label: Portfolio
