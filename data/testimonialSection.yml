@@ -5,6 +5,24 @@ title: >
   ## Testimonials
 
 testimonial:
+  - name: Benjamin Urquhart
+    profile_picture: /images/testimonials/benjamin_urquhart.jpg
+    comment: >
+      I met Brennan at Mount Royal University, and worked alongside him as an executive of The Write Club. Throughout the time that I've known him, Brennan has proven himself to be a driven, caring, highly competent individual. He has consistently demonstrated creativity, problem solving skills, and an aptitude for expansion and growth. Brennan has also fostered an amazing environment for myself and our university peers, constantly striving to help his friends to the best of his ability. I believe Brennan would be an incredible asset to any potential employer.
+    time: March 5th, 2024
+    star: 5
+  - name: Connie Yu
+    profile_picture: /images/testimonials/connie_yu.jpg
+    comment: >
+      Brennan possesses strong leadership skills, that has helped him cultivate a strong and close-knit writing community. He cares so deeply for every single individual who comes to Write Club, always trying to make an inclusive space for everyone, supporting those from all walks of life by helping them develop their writing skills. Brennan is not only caring and considerate, but he is also resourceful, continuously finding a multitude of ways to network with others involved in the writing community and consistently coming up with new ideas to help foster a bigger community. I am deeply thankful to be a part of such a vibrant community, created by the founder, Brennan.
+    time: March 3rd, 2024
+    star: 5
+  - name: Campton Hancock
+    profile_picture: /images/testimonials/campton_hancock.jpg
+    comment: >
+      As the president and founder of Write Club, Brennan has demonstrated exceptional leadership skills within our writing community. I have had the privilege of working alongside Brennan as the marketing executive for Write Club and have come to value his advice and determination within the writing world. Brennan is extremely motivated and organized, as exemplified by his consistent efforts to improve communication and participation within Write Club. A talented writer and creative thinker, Brennan excels in his position, turning the dreams of writers into realities and helping members realize their potential through encouragement and constructive criticism. He would be an asset to any organization that chose to employ him.
+    time: February 28th, 2024
+    star: 5
   - name: Candice Tate, 2021 VA of the Year
     comment: Brennan is an absolute joy to work with.
       He’s extremely knowledgeable and able to apply his expertise with data to any project.

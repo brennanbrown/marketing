@@ -26,6 +26,17 @@ education:
       - Contributor to The Reflector Newspaper
     time: September 2021 — June 2025
   - content: >
+      ### Fullstack Web Development Program
+
+      #### [InceptionU / EvolveU](https://inceptionu.com)
+
+      - Vanilla JavaScript, React.js, Node.js, Python, Flask, PostgreSQL, NoSQL, C#.
+
+      - Test Driven Development, Pair Programming, Debugging, Wire-framing.
+
+      - Agile Management, Design Thinking, Project Management.
+    time: February 2020 — August 2020
+  - content: >
       ### Various Courses, Software Development
 
       #### Southern Alberta Institute of Technology
@@ -40,6 +51,17 @@ education:
     time: September 2016 — June 2017
 
 experience:
+  - content: >
+      ### Founder and Program Coordinator
+
+      #### [Write Club](https://writeclub.ca)
+
+      - Develop and facilitate weekly meetings aimed at fostering a vibrant learning community of over 100 members, focusing on improving creative writing skills, promoting intellectual diversity; providing guidance and critique on pieces.
+
+      - Lead and organized fundraising events to raise money for the Canadian Children's Literacy Foundation, and other events such as author readings, local poetry slams, bookstore collaborations, and indie anthology publishing.
+
+      - Developed and currently manage the digital publication, featuring members' creative writing pieces and club updates, expanding reach beyond university, with multiple social media marketing campaigns.
+    time: September 2022 — Present
   - content: >
       ### Growth Marketing Program
 
@@ -70,15 +92,3 @@ experience:
 
       - Initially began on Medium, migrating to custom-built WordPress site.
     time: September 2020 — Present
-  - content: >
-      ### Fullstack Web Development Program
-
-      #### [InceptionU / EvolveU](https://inceptionu.com)
-
-      - Vanilla JavaScript, React.js, Node.js, Python, Flask, PostgreSQL, NoSQL, C#.
-
-      - Test Driven Development, Pair Programming, Debugging, Wire-framing.
-
-      - Agile Management, Design Thinking, Project Management.
-    time: February 2020 — August 2020
-
