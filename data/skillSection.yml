@@ -1,17 +1,28 @@
 ---
-enable: false
+enable: true
 topTitle: My Skills
 content: >
   ## Why hire me for your next project?
 
-  My goal is to build a strong supportive professional network among all freelancers and startups in order to improve their performance.
+  With a diverse skill set and a passion for continuous learning, I am dedicated to helping freelancers and startups achieve their goals. My extensive experience in web development, community building, content creation, and project management enables me to deliver high-quality results across various domains. Here’s a closer look at the skills I bring to the table:
 
-image: images/skill/skill_image.jpg
+image: https://i.ibb.co/4T41f8K/skill-image.png
 
 skill:
-  - title: HTML
-    percent: 69
-  - title: CSS
-    percent: 60
-  - title: Javascript
-    percent: 85
+  - title: Creative & Content Writing
+    percent: 95
+  - title: Community Building & Engagement
+    percent: 90
+  - title: Editing, Proofreading & Communication
+    percent: 90
+  - title: JavaScript & Front-End Development
+    percent: 80
+  - title: Agile & Scrum Methodologies
+    percent: 80
+  - title: Python & Back-End Development
+    percent: 75
+  - title: Research & Analysis
+    percent: 75
+  - title: SQL & NoSQL Databases
+    percent: 70
+---
