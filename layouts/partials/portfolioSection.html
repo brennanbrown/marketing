@@ -1,0 +1,38 @@
+{{ with .Site.Data.portfolioSection }}
+{{ if .enable }}
+<section class="section portfolio" id="portfolio">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-6 offset-lg-3">
+        <div class="portfolio__header mb-5">
+          <a href="/portfolio" class="text-dark">
+            <span class="top-title">{{ .topTitle }}</span>
+            {{ .title | markdownify }}
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="portfolio-item-grid">
+          {{ range (sort (where (where $.Site.RegularPages "Type" "portfolio") ".Params.hidden" "ne" true) "Date" "desc") }}
+          <div class="portfolio-item">
+            <a href="{{ .Permalink }}">
+              <img src="{{ .Params.thumbnail | relURL }}" class="portfolio-item-thumb" alt="portfolio-thumb" />
+            </a>
+            <div class="portfolio-item-content">
+              <span>{{ .Params.service }}</span>
+              <h3 class="mb-0">
+                <a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a>
+              </h3>
+              <a class="see-more-btn" href="{{ .Permalink }}">See details</a>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
