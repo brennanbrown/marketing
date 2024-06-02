@@ -4,6 +4,7 @@ date: 2020-09-19
 thumbnail: images/portfolio/portfolio-1.jpg
 service: Product Development, Sell Sheets
 client: Virtual Gurus
+hidden: true
 shortDescription:
   VirtualGurus is a  virtual staffing and consulting agency marketplace that provides businesses with access to a global network of pre-vetted, qualified remote workers. They  provide highly skilled virtual assistants to businesses and entrepreneurs who need assistance with tasks that are time-consuming or require specialized knowledge.
 challenge:
