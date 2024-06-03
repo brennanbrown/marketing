@@ -2,7 +2,7 @@ baseURL = "https://brennanbrown.ca/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
-title = "Digital Marketing & Web Development"
+title = "Writing, Marketing & Tech"
 # Main Menu
 [[menu.main]]
 name = "Home"
@@ -61,6 +61,7 @@ footerLogo = "images/contact/footer-logo.png"
 fabformURL  = "https://fabform.io/f/2ORFL1T"
 googleAnalytics = "G-GRLVE97S23"
 logo = "images/site-navigation/logo.png"
+custom_css = ["css/custom.css"]
 
 [params.address]
 address = "Calgary, Alberta, Canada"
