@@ -67,7 +67,7 @@ custom_css = ["css/custom.css"]
 address = "Calgary, Alberta, Canada"
 email = "mail@brennanbrown.ca"
 openingHours = "Available anytime."
-phone = "+(403) 401-2718"
+
 
 [params.map]
 APIkey = "AIzaSyD2WardCPFCJsUgTeWNlMDEWJe5lL-YCfM"
