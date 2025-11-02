@@ -1,8 +1,10 @@
 baseURL = "https://brennanbrown.ca/"
 languageCode = "en-us"
-paginate = 6
 theme = "portio"
 title = "Writing, Marketing & Tech"
+
+[pagination]
+pagerSize = 6
 # Main Menu
 [[menu.main]]
 name = "Home"
@@ -55,13 +57,16 @@ weight = 4
 [params]
 blogPageURL = "writing"
 contactLink = "contact"
-copyright = "All Rights Reserved. Copyright © Brennan Kenneth Brown 2020 -- 2024"
+copyright = "All Rights Reserved. Copyright © Brennan Kenneth Brown 2020 -- 2025"
 footerLogo = "images/contact/footer-logo.png"
 # We're using formspree.io for form handling, paste your formspree url below
 fabformURL  = "https://fabform.io/f/2ORFL1T"
 googleAnalytics = "G-GRLVE97S23"
 logo = "images/site-navigation/logo.png"
 custom_css = ["css/custom.css"]
+
+[markup.goldmark.renderer]
+unsafe = true
 
 [params.address]
 address = "Calgary, Alberta, Canada"
