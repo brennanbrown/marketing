@@ -11,29 +11,37 @@ name = "Home"
 url = "#home"
 weight = 1
 [[menu.main]]
-name = "About"
-url = "#about"
+name = "Berry House"
+url = "#berryhouse"
 weight = 2
 [[menu.main]]
-name = "Services"
-url = "#service"
+name = "About"
+url = "#about"
 weight = 3
+[[menu.main]]
+name = "Books"
+url = "books"
+weight = 4
 [[menu.main]]
 name = "Work"
 url = "portfolio"
-weight = 4
-[[menu.main]]
-name = "Writings"
-url = "blog"
 weight = 5
+[[menu.main]]
+name = "Writing"
+url = "blog"
+weight = 6
 [[menu.main]]
 name = "Resume"
 url = "#resume"
-weight = 6
+weight = 7
+[[menu.main]]
+name = "Support Me"
+url = "tiers"
+weight = 8
 [[menu.main]]
 name = "Contact"
 url = "contact"
-weight = 7
+weight = 9
 
 # Sitemap Menu
 [[menu.sitemap]]
@@ -95,13 +103,21 @@ url = "https://bkpoetry.com/"
 weight = 3
 [[params.social]]
 icon = "fa-medium"
-url = "https://brennanbrown.medium.com"
+url = "https://blog.brennanbrown.ca"
 weight = 4
+[[params.social]]
+icon = "fa-cloud"
+url = "https://bsky.app/profile/brennan.bsky.social"
+weight = 5
+[[params.social]]
+icon = "fa-mastodon"
+url = "https://mastodon.social/@brennan"
+weight = 6
 [[params.social]]
 icon = "fa-graduation-cap"
 url = "https://www.researchgate.net/profile/Brennan-Brown-2"
-weight = 5
+weight = 7
 [[params.social]]
 icon = "fa-envelope"
 url = "mailto:mail@brennanbrown.ca"
-weight = 6
+weight = 8

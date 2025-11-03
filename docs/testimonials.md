@@ -1,0 +1,62 @@
+testimonial:
+  - name: Benjamin Urquhart
+    profile_picture: /images/testimonials/benjamin_urquhart.jpg
+    comment: >
+      I met Brennan at Mount Royal University, and worked alongside him as an executive of The Write Club. Throughout the time that I've known him, Brennan has proven himself to be a driven, caring, highly competent individual. He has consistently demonstrated creativity, problem solving skills, and an aptitude for expansion and growth. Brennan has also fostered an amazing environment for myself and our university peers, constantly striving to help his friends to the best of his ability. I believe Brennan would be an incredible asset to any potential employer.
+    time: March 5th, 2024
+    star: 5
+  - name: Connie Yu, Owner of the Calgary Vegan Society
+    profile_picture: /images/testimonials/connie_yu.jpg
+    comment: >
+      Brennan possesses strong leadership skills, that has helped him cultivate a strong and close-knit writing community. He cares deeply for all individuals who comes to Write Club, trying to make an inclusive space, supporting those from all walks of life by helping them develop their writing skills. Brennan is not only caring and considerate, but he is also resourceful, continuously finding ways to network with others involved in the writing community and consistently coming up with new ideas to help foster a bigger community. I am deeply thankful to be a part of such a vibrant community, created by the founder, Brennan.
+    time: March 3rd, 2024
+    star: 5
+  - name: Campton Hancock
+    profile_picture: /images/testimonials/campton_hancock.jpg
+    comment: >
+      Brennan has demonstrated exceptional leadership skills within our community. I have had the privilege of working alongside Brennan as the marketing executive for Write Club and have come to value his advice and determination. Brennan is extremely motivated and organized, as exemplified by his consistent efforts to improve communication and participation within Write Club. Brennan excels in his position, helping people realize their potential through encouragement and constructive criticism. He would be an asset to any organization that chose to employ him.
+    time: February 28th, 2024
+    star: 5
+  - name: Candice Tate, 2021 VA of the Year
+    comment: Brennan is an absolute joy to work with.
+      He’s extremely knowledgeable and able to apply his expertise with data to any project.
+      Not only does his technical expertise shine through, but he also brings creative ideas to his projects.
+      Glad that I was able to share a cohort!
+    time: September 4th, 2022
+    star: 5
+  - name: Andrew Bizon, P. Eng.
+    comment: Brennan was a fun and instructive member of the InceptionU cohort,
+      I feel lucky to have worked with him and gained from his skills as a full stack developer.
+      I can without hesitation recommend him for any full stack, front end or back end role.
+      Any software company would be fortunate to have him join their team.
+    time: September 21st, 2020
+    star: 5
+  - name: Roman Mirakhmedov, Principle Solutions Architect at AWS
+    comment:
+      Brennan acquired a wealth of new knowledge and skills through the program at InceptionU and successfully presented
+      his front end learning project that included JavaScript, React.js and some backend integrations.
+      I wish Brennan all the best in his technology journey, and I am confident in his success!
+    time: August 6th, 2020
+    star: 4
+  - name: Larry Shumlich
+    comment:
+      As the Tech Lead for the InceptionU Full Stack Development Program for the 4th Cohort,
+      I would like to congratulate Brennan on completing the Front-End curriculum at InceptionU.
+      This included JavaScript (Syntax, Logic, Events, DOM, Data Structures, Arrays, Objects/Dictionaries, Linked Lists, State Management, etc.).
+      I wish him the best in the technical community.
+    time: August 6th, 2020
+    star: 4
+  - name: Chantel Elliott
+    comment:
+      I had the pleasure of teaching Brennan in the OnRamp Growth Marketing Bootcamp this year. Brennan is a creative, curious 
+      and resourceful problem-solver. During OnRamp, he demonstrated strengths in content development & copywriting (blog, sales sheet),
+      campaign design and marketing fundamentals. He always asked really great, thoughtful questions, contributed new ideas and 
+      supported his fellow cohort participants when they needed help. Plus his technical coding aptitude gave him a leg-up when 
+      tackling the more technical side of marketing tools. He was a pleasure to work with!
+    time: December 1st, 2022
+    star: 5
+  - Felix Da Costa Gomez
+    comment:
+        Strong, community orientated leader who I have had the pleasure of working with. Acting as the Founding President of Mount Royal University’s Creative Writing Club, Kenneth has fostered a strong community where individuals invested in professional and emotional relationships. His ability as a leader has enabled others to grow, and his conscientiousness is an asset in making hard decisions. In terms of specific skills, being an English Honours student alongside Kenneth affirms that he is skillful in editing, proofreading, critical analysis, and he has a keen attention to detail that makes him reliable in any project format. Kenneth’s knack for managing websites also proves that he has skills outside of his degree and he is a proficient article writer on Medium, striking cold facts and personal truth that adds to the depth of his writing ability. Thoughtful, sharp, and adaptable. 
+    time: April 29th, 2025
+    star: 5

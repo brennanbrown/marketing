@@ -6,15 +6,20 @@
 	</div>
 	<div class="container">
 		<div class="row mb-5">
-			<div class="col-lg-6">
+			<div class="col-lg-8">
 				<div class="blog-preview__header">
 					<span class="top-title pre-line">{{ .topTitle }}</span>
 					{{ .title | markdownify }}
+					{{ if .content }}
+					<div class="mt-3">
+						{{ .content | markdownify }}
+					</div>
+					{{ end }}
 				</div>
 			</div>
-			<div class="col-lg-6">
+			<div class="col-lg-4">
 				<div class="blog-preview__header_button desktop">
-					<a class="btn btn-outline-secondary  btn-zoom m-3" href="{{ .buttonTarget | absURL }}">See all my writing samples</a>
+					<a class="btn btn-outline-secondary btn-zoom m-3" href="{{ .buttonTarget | absURL }}">See all my writing samples</a>
 				</div>
 			</div>
 		</div>

@@ -1,0 +1,91 @@
+---
+enable: true
+topTitle: BLOG THEMES & TEMPLATES
+title: >
+  ## Jekyll & Eleventy Themes
+
+  Free, open-source themes for modern blogging and digital gardens.
+
+buttonTarget: portfolio
+themes:
+  - title: "Enjoyment Work"
+    image: "images/portfolio/enjoyment-work-live.png"
+    description: "Extensive Jekyll theme with Roam Research functionality for digital gardens and note-taking"
+    stars: 107
+    tech: "Jekyll, Bootstrap, Obsidian"
+    demoURL: "https://enjoyment-work.netlify.app"
+    repoURL: "https://github.com/brennanbrown/enjoyment-work"
+
+  - title: "11ty Gamification"
+    image: "images/portfolio/11ty-gamification-live.png"
+    description: "Gamified Eleventy blog theme with badges, streaks, and writing progress tracking"
+    stars: 0
+    tech: "Eleventy, TypeScript, Tailwind"
+    demoURL: "https://11ty-gamification.netlify.app"
+    repoURL: "https://github.com/brennanbrown/11ty-Gamification"
+
+  - title: "Campfire Hugo Theme"
+    image: "images/portfolio/campfire-hugo-theme-live.png"
+    description: "Warm, story-focused Hugo theme for blogs and writing-first sites"
+    tech: "Hugo, HTML, CSS"
+    demoURL: "https://campfire-hugo.netlify.app"
+    repoURL: "https://github.com/brennanbrown/Campfire-Hugo-Theme"
+
+  - title: "Purelog"
+    image: "images/portfolio/purelog-live.png"
+    description: "Lightweight Jekyll theme with Pure.css for writers and bloggers"
+    stars: 34
+    tech: "Jekyll, Pure.css"
+    demoURL: "https://purelog.netlify.app"
+    repoURL: "https://github.com/brennanbrown/purelog"
+
+  - title: "Watery"
+    image: "images/portfolio/watery-live.png"
+    description: "Minimalist Jekyll theme using Water.css framework"
+    stars: 15
+    tech: "Jekyll, Water.css"
+    demoURL: "https://watery.netlify.app/"
+    repoURL: "https://github.com/brennanbrown/watery"
+
+  - title: "11ty IndieWeb Blog Starter"
+    image: "images/portfolio/11ty-indieweb-blog-starter-live.png"
+    description: "Modern blog template with IndieWeb features and Tailwind CSS"
+    stars: 2
+    tech: "Eleventy, Tailwind, Microformats"
+    demoURL: "https://indieweb-blog-starter.netlify.app/"
+    repoURL: "https://github.com/brennanbrown/11ty-Indie-Web-Blog-Starter"
+
+  - title: "Retroweird"
+    image: "images/portfolio/retroweird-live.png"
+    description: "Maximalist blog theme inspired by GeoCities and MySpace"
+    tech: "Eleventy, CSS, JavaScript"
+    demoURL: "https://retroweird.netlify.app/"
+    repoURL: "https://github.com/brennanbrown/retroweird"
+
+  - title: "Hyperpop"
+    image: "images/portfolio/hyperpop-live.png"
+    description: "Y2K-inspired Eleventy theme with late 90s/early 2000s aesthetics"
+    tech: "Eleventy, CSS, Service Workers"
+    demoURL: "https://hyperpop-demo.netlify.app"
+    repoURL: "https://github.com/brennanbrown/hyperpop"
+
+  - title: "Classic Spirits"
+    image: "images/portfolio/classic-spirits-live.png"
+    description: "Clean sidebar Jekyll theme built on Bulma"
+    tech: "Jekyll, Bulma CSS"
+    demoURL: "https://classic-spirits.netlify.app"
+    repoURL: "https://github.com/brennanbrown/classic-spirits"
+
+  - title: "Foothills Tumblr Theme"
+    image: "images/portfolio/foothills-tumblr-live.png"
+    description: "Accessible Tumblr theme for writers and community builders"
+    tech: "Tumblr, HTML, CSS"
+    demoURL: "https://foothills-tumblr.netlify.app/preview/"
+    repoURL: "https://github.com/brennanbrown/foothills"
+
+  - title: "eink.site"
+    image: "images/portfolio/eink-site-live.png"
+    description: "Minimalist Jekyll theme optimized for e-ink devices"
+    tech: "Jekyll, Minimal CSS"
+    demoURL: "https://eink.site/"
+    repoURL: "https://github.com/brennanbrown/eink.site"

@@ -3,50 +3,66 @@
 ### 1. enjoyment-work (theme)
 - **Repository URL:** https://github.com/brennanbrown/enjoyment-work
 - **Demo URL:** https://enjoyment-work.netlify.app
+- **Stars:** 107
+- **Forks:** 10
 - **Description:** An extensive Jekyll theme designed to have similar functionality to Roam Research. It's an academic/research-focused theme that provides extensive features for note-taking and personal growth, based on the Digital Garden philosophy. It aims to integrate with Obsidian for turning notes into an online blog.
 - **Technologies:** Jekyll, HTML, CSS (Bootstrap 4, SCSS), Obsidian, Ruby, Simply Jekyll Search
 
 ### 2. purelog (theme)
 - **Repository URL:** https://github.com/brennanbrown/purelog
 - **Demo URL:** https://purelog.netlify.app
+- **Stars:** 34
+- **Forks:** 34
 - **Description:** A responsive sidebar Jekyll theme, created with the Pure.css framework. It's designed for writers and bloggers and aims to be lightweight while offering features like separate sections for blogging, note-taking, and daily journal entries.
 - **Technologies:** Jekyll, HTML, Pure.css, Ruby, RubyGems, Simply Jekyll Search
 
 ### 3. watery (theme)
 - **Repository URL:** https://github.com/brennanbrown/watery
 - **Demo URL:** https://watery.netlify.app/
+- **Stars:** 15
+- **Forks:** 8
 - **Description:** A minimalist, bare-bones theme for Jekyll that uses the Water.css framework. It was created as an up-to-date starter/skeleton theme for Jekyll, aiming to be lightweight while providing essential features for creating informational websites or blogs.
 - **Technologies:** Jekyll, HTML, Water.css, Ruby, RubyGems, Google Lighthouse
 
 ### 4. django-project (full-stack web app)
 - **Repository URL:** https://github.com/brennanbrown/django-project
-- **Demo URL:** Under Construction!
+- **Demo URL:** https://django-site-5c57e163a722.herokuapp.com/
+- **Stars:** 7
+- **Forks:** 9
 - **Description:** A full-stack Django project utilizing Bootstrap 4 and vanilla JavaScript for the front-end, a PostgreSQL database, and GraphQL for API functionality. It also uses Selenium for test-driven development and is intended to be deployed on a DigitalOcean Droplet.
 - **Technologies:** Django, Python, PostgreSQL, GraphQL, Selenium, Bootstrap 4, JavaScript
 
 ### 5. notes (static site)
 - **Repository URL:** https://github.com/brennanbrown/notes
 - **Demo URL:** https://brennanbrown.github.io/notes
+- **Stars:** 7
+- **Forks:** 0
 - **Description:** A public domain repository of notes on various skills, including programming and software development. It covers topics like programming fundamentals, algorithms, design patterns, Python, web development (HTML, CSS, JavaScript, Node.js, Express, React.js, Flask, Django), and tools like Git and GitHub.
 - **Technologies:** SCSS, Markdown, Jekyll (implied by GitHub Pages demo URL)
 
 ### 6. journalbar (blog)
 - **Repository URL:** https://github.com/brennanbrown/journalbar
 - **Demo URL:** https://journal.kim/
+- **Stars:** 5
+- **Forks:** 1
 - **Description:** A personal blog for self-quantification and personal improvement via Beeminder. It provides weekly updates on goals and progress, acting as a meta-accountability experiment.
 - **Technologies:** Jekyll, HTML, CSS, Ruby, Beeminder
 
-### 7. marketing (portfolio)
-- **Repository URL:** https://github.com/brennanbrown/marketing
-- **Demo URL:** https://brennanbrown.ca
-- **Description:** A marketing portfolio showcasing in-depth marketing strategies, experiences, and case studies. It is created with Hugo and hosted on Netlify, featuring a design inspired by the Portio template by StaticMania.
-- **Technologies:** Hugo, HTML, SCSS, Netlify, Forestry CMS
-
-### 8. duck-project (full-stack web app)
+### 7. duck-project (full-stack web app)
 - **Repository URL:** https://github.com/brennanbrown/duck-project
-- **Demo URL:** https://duck-project.herokuapp.com
+- **Demo URL:** https://duck-project-d5ea5d1f96f6.herokuapp.com/
+- **Stars:** 4
+- **Forks:** 4
 - **Description:** A full-stack website developed as part of a three-week Project-based Learning (PBL) experiment. It covers the entire spectrum of web development, from front-end visuals and UX to back-end database and server communication.
 - **Technologies:** Node.js, EJS, Bootstrap 4, Express.js, JavaScript, CSS
+
+### 8. marketing (portfolio)
+- **Repository URL:** https://github.com/brennanbrown/marketing
+- **Demo URL:** https://brennanbrown.ca
+- **Stars:** 4
+- **Forks:** 0
+- **Description:** A marketing portfolio showcasing in-depth marketing strategies, experiences, and case studies. It is created with Hugo and hosted on Netlify, featuring a design inspired by the Portio template by StaticMania.
+- **Technologies:** Hugo, HTML, SCSS, Netlify, Forestry CMS
 
 ### 9. brennanbrown (profile README)
 - **Repository URL:** https://github.com/brennanbrown/brennanbrown
@@ -57,12 +73,16 @@
 ### 10. WriteClub (blog)
 - **Repository URL:** https://github.com/brennanbrown/WriteClub
 - **Demo URL:** https://writeclub.ca
+- **Stars:** 2
+- **Forks:** 0
 - **Description:** The official website for Mount Royal University's Creative Writing Club. It serves as a safe and inclusive space for writers to hone their craft, share work, and connect with others. It also offers prompts, activities, exercises, and resources.
 - **Technologies:** Jekyll, HTML, SCSS, Ruby
 
 ### 11. portfolio (static site)
 - **Repository URL:** https://github.com/brennanbrown/portfolio
 - **Demo URL:** https://brennanbrown.ca
+- **Stars:** 2
+- **Forks:** 0
 - **Description:** (DEPRECATED) This is Brennan Brown's previous web portfolio, built with Express and Node.js. It showcases his work as a web developer and writer, featuring coding projects and blog posts. It's a single-page design with an emphasis on typography and accessibility, based on an older project called "Duck Project."
 - **Technologies:** Node.js, Express.js, EJS, Bootstrap 4, JavaScript, CSS
 
@@ -81,6 +101,8 @@
 ### 14. 11ty-Indie-Web-Blog-Starter (blog)
 - **Repository URL:** https://github.com/brennanbrown/11ty-Indie-Web-Blog-Starter
 - **Demo URL:** https://indieweb-blog-starter.netlify.app/
+- **Stars:** 2
+- **Forks:** 0
 - **Description:** A modern, feature-complete blog template built with Eleventy and Tailwind CSS. It is designed for writers who want to own their content and participate in the IndieWeb, offering features like simple setup, IndieWeb readiness (Microformats, webmentions, RSS), modern design, and privacy focus.
 - **Technologies:** Eleventy (11ty), Tailwind CSS, Nunjucks, JavaScript, Node.js, HTML, CSS
 
@@ -119,3 +141,75 @@
 - **Demo URL:** https://11ty-gamification.netlify.app
 - **Description:** A gamified Eleventy blog theme designed to turn writing into an engaging game-like experience. Built as a monorepo with a production-ready blog application and supporting packages, it encourages consistent writing through badge rewards, activity tracking, and progress visualization. Key features include multiple badge types (streak tracking, total active days, word count milestones, and behavior patterns like Early Bird/Night Owl), an interactive heatmap calendar showing writing activity with word-based shading thresholds, and dynamic "Badge Ideas" that suggest achievable goals based on current activity. The theme emphasizes lightweight performance, accessibility, and a strong testing culture with comprehensive unit and integration tests using Vitest.
 - **Technologies:** Eleventy, TypeScript, Node.js, Vitest, Tailwind CSS, Nunjucks, Netlify, GitHub Actions, npm Workspaces
+
+### 21. Bearminder (macOS app)
+- **Repository URL:** https://github.com/brennanbrown/bearminder
+- **Demo URL:** https://bearminder.netlify.app
+- **Description:** A private, local-first macOS menubar app that tracks daily word counts from Bear and posts them to Beeminder. Secure tokens in Keychain; runs on-demand or hourly.
+- **Technologies:** Swift, macOS AppKit, Beeminder API, Bear App API, Keychain, XcodeGen
+
+### 22. Classic Spirits (theme)
+- **Repository URL:** https://github.com/brennanbrown/classic-spirits
+- **Demo URL:** https://classic-spirits.netlify.app
+- **Description:** A clean, responsive, old‑school sidebar Jekyll theme built on Bulma with performance and accessibility improvements.
+- **Technologies:** Jekyll, Bulma CSS, HTML, CSS, Ruby, JavaScript
+
+### 23. Romance & Community (website)
+- **Repository URL:** https://github.com/brennanbrown/communityandromance
+- **Demo URL:** https://honoursconference2024.com
+- **Description:** Official site for the MRU English Honours Conference with dynamic schedule, speaker profiles, and responsive, SEO‑optimized design.
+- **Technologies:** Jekyll, HTML, CSS, JavaScript, Ruby, Shell
+
+### 24. CSET — Society for Equity in Technology (website)
+- **Repository URL:** https://github.com/brennanbrown/cset
+- **Demo URL:** https://cset.netlify.app/
+- **Description:** Volunteer‑run initiative building equitable access to technology in Calgary. Community events, low‑cost tech classes, and inclusive resources.
+- **Technologies:** Jekyll, HTML, CSS, Ruby, JavaScript, Bootstrap, Font Awesome, Tockify, Typeform, OpenDyslexic
+
+### 25. hyperpop (theme)
+- **Repository URL:** https://github.com/brennanbrown/hyperpop
+- **Demo URL:** https://hyperpop-demo.netlify.app
+- **Description:** Y2K‑inspired Eleventy blog theme with authentic late 90s/early 2000s aesthetics and modern performance/accessibility.
+- **Technologies:** Eleventy (11ty), HTML, CSS, JavaScript, Service Workers, JSON search, Netlify
+
+### 26. jekyll-audit (CLI tool)
+- **Repository URL:** https://github.com/brennanbrown/jekyll-audit
+- **Demo URL:** https://www.npmjs.com/package/@brennanbrown/jekyll-audit
+- **Description:** npm CLI to audit Jekyll sites for performance, accessibility, SEO, broken links, and HTML validation with consolidated reports.
+- **Technologies:** TypeScript, JavaScript, Node.js, npm, Jekyll, Lighthouse, Pa11y, Linkinator, html-validator
+
+### 27. journalfor.me (web app)
+- **Repository URL:** https://github.com/brennanbrown/journalfor.me
+- **Demo URL:** https://journalforme.netlify.app
+- **Description:** Minimalist, secure Markdown journal with zero‑knowledge encryption, offline support, and cross‑device sync.
+- **Technologies:** TypeScript, Vite, Tailwind CSS, Netlify Functions, Neon PostgreSQL, JWT, bcrypt, IndexedDB, Service Workers
+
+### 28. Kindread the Poet (website)
+- **Repository URL:** https://github.com/brennanbrown/kindreadthepoet
+- **Demo URL:** https://kindreadthepoet.com
+- **Description:** Professional artist site for Marcus Madelo, a Filipino‑Canadian spoken‑word poet based in Calgary.
+- **Technologies:** Jekyll, HTML, CSS, Shell, Ruby
+
+### 29. Moneytree (PWA)
+- **Repository URL:** https://github.com/brennanbrown/moneytree
+- **Demo URL:** https://moneytree-pwa.netlify.app/
+- **Description:** Privacy‑first personal finance Progressive Web App with robust offline support using IndexedDB and service workers. No external APIs.
+- **Technologies:** Eleventy (11ty), Tailwind CSS, IndexedDB, JavaScript, Nunjucks, Vitest, Service Workers
+
+### 30. Self‑Teach Academy (landing page)
+- **Repository URL:** https://github.com/brennanbrown/STA-landing-page
+- **Demo URL:** https://brennanbrown.github.io/STA-landing-page/
+- **Description:** Static landing page for a learning dashboard concept, evolving into a full‑stack Next.js application.
+- **Technologies:** SCSS, CSS, HTML, JavaScript, TypeScript, Next.js, Prisma, Supabase
+
+### 31. thinkingwhy.com (blog)
+- **Repository URL:** https://github.com/brennanbrown/thinkingwhy.com
+- **Demo URL:** https://thinkingwhy.com
+- **Description:** Type‑safe Astro 5 JAMstack blog with semantic SEO, JSON‑LD, and Core Web Vitals optimization.
+- **Technologies:** Astro 5, Tailwind CSS, TypeScript, Content Collections, JSON‑LD, Vercel, Google AdSense, GA4, Formspree
+
+### 32. WatermelonClub (website)
+- **Repository URL:** https://github.com/brennanbrown/WatermelonClub
+- **Demo URL:** https://watermelonclub.org
+- **Description:** Joyful, accessible Palestine solidarity resources for Canadian students. Learn, organize, take action.
+- **Technologies:** Jekyll, HTML, CSS, Accessibility, JavaScript, Dark Mode

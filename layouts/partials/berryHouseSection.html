@@ -1,0 +1,26 @@
+{{ with .Site.Data.berryHouseSection }}
+{{ if .enable }}
+<section class="section berryhouse" id="berryhouse" style="background: linear-gradient(135deg, {{ .backgroundColor }} 0%, #991b1b 100%);">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6 order-2 order-lg-1">
+				<div class="berryhouse__content" style="color: white;">
+					<span class="top-title pre-line" style="color: #fecaca;">{{ .topTitle }}</span>
+					<div style="color: white;">{{ .title | markdownify }}</div>
+					<div style="color: #fee2e2;">{{ .content | markdownify }}</div>
+					<div class="berryhouse__buttons mt-4">
+						<a href="{{ .buttonURL }}" class="btn btn-light btn-zoom mb-3 mb-sm-0" style="margin-right: 1rem;">{{ .buttonName }}</a>
+						<a href="{{ .secondaryButtonURL | absURL }}" class="btn btn-outline-light btn-zoom">{{ .secondaryButtonName }}</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
+				<div class="berryhouse__image text-center">
+					<img src="{{ .image | absURL }}" alt="Berry House" class="img-fluid rounded shadow-lg" style="max-width: 90%;">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }}
+{{ end }}

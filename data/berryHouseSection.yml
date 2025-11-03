@@ -1,0 +1,33 @@
+---
+enable: true
+topTitle: 🍓 BERRY HOUSE
+title: >
+  ## Work With Berry House
+
+  Your go-to collective for human-centric web development and compelling digital writing.
+content: >
+  **Berry House** (formerly Strawberry Collective) is a social enterprise reclaiming the internet from algorithm-driven homogeneity. We offer professional JAMstack web development and writing services while championing digital autonomy, creativity, and a more meaningful web.
+
+
+  ### What We Offer
+
+  - **JAMstack Web Development:** Modern, performant, secure websites built with Hugo, Eleventy, and other static site generators
+  
+  - **Writing Services:** Copywriting, technical writing, content strategy, and storytelling workshops
+  
+  - **Dual Mission:** Professional services for businesses at market rates, plus accessible pay-what-you-can support for non-profits and marginalized communities
+
+
+  ### Why Choose Berry House?
+
+  We believe the web should be human-first, not algorithm-first. Whether you're a corporate client seeking cutting-edge JAMstack solutions or a non-profit needing to tell your story, Berry House brings technical excellence and authentic storytelling together.
+
+
+  **Looking to work together?** Berry House is your best option for professional collaboration. Contact us to discuss your project.
+
+buttonName: Get in Touch with Berry House
+buttonURL: "https://berryhouse.collective"
+secondaryButtonName: Or Contact Brennan Directly
+secondaryButtonURL: contact
+image: images/berryhouse/strawberry-collective.jpg
+backgroundColor: "#dc2626"  # Red color for Berry House section

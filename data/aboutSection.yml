@@ -1,28 +1,34 @@
 ---
 enable: true
-topTitle: Get to know your next hire.
+topTitle: More than just code and content
 title: >
   ## About Me
 
-  (Note: I'm ~~just a bit of~~ a perfectionist, so rest assured that your project will be done right the first time.)
+  A Queer Métis poet, writer, and web developer navigating the intersections of technology, creativity, and community.
 content: >
-  ## I develop & design content projects.
+  ## Who I Am, Holistically
 
-  👋🏽 Hi there! I'm Brennan, but my friends call me Kenny. Some notes:
+  👋🏽 Hi there! I'm Brennan Kenneth Brown (my friends call me Kenny), and I'm a lot of things:
 
-  - 🌐 I'm a **versatile creator** with expertise in growth marketing, web development, and content production.
+  - 🍓 **Founder of Berry House** — Building a more human-centric web through JAMstack development and compelling storytelling
 
-  - ✊🏾 Looking to **empower marginalized voices** and emphasize stories that matter.
+  - ✊🏾 **Indigenous & Queer Voice** — Committed to empowering marginalized communities and centering stories that matter
 
-  - 📝 Love developing **lean marketing campaigns** through strategic content and compelling copywriting.
+  - 📚 **Published Author** — Nine books of poetry and essays exploring identity, love, faith, and the human experience
 
-  - 💻 Knowledgeable in multiple **front-end frameworks**, programming languages, and technical ecosystems.
+  - 💻 **Open-Source Contributor** — Created 30+ free Jekyll/Eleventy themes and tools used by developers worldwide
 
-  - ♿️ Advocate for accessibility and the [A11y project](https://www.a11yproject.com/) in web development.
+  - ♟️ **Competitive Chess Player** — 1900 ELO bullet chess on Lichess (17,918 rated games and counting)
+
+  - 🎓 **English Honours Graduate** — Mount Royal University, 3.8 GPA, founder of Write Club creative writing community
+
+  - 🌐 **Former Hospice Cook, Crisis Support Volunteer, Productivity Analyst** — My diverse background informs everything I create
 
 
-button1Name: Hire Me
-button2Name: Download CV
-button1Target: contact
-button2Target: Resume.pdf
+  I don't fit neatly into boxes, and I'm okay with that. Whether I'm building accessible websites, writing confessional poetry, supporting someone in crisis, or playing speed chess at 2 AM—it's all part of who I am.
+
+button1Name: Work with Berry House
+button2Name: Or Contact Me Directly
+button1Target: "#berryhouse"
+button2Target: contact
 image: images/about/about-img.jpg

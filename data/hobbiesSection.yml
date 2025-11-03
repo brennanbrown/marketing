@@ -1,0 +1,35 @@
+---
+enable: true
+topTitle: BEYOND THE CODE
+title: >
+  ## Hobbies & Creative Pursuits
+
+  The interesting other things I do when I'm not writing code or essays.
+
+hobbies:
+  - title: "♟️ Competitive Chess"
+    icon: "fa-chess"
+    image: "images/hobbies/lichess.png"
+    description: "Peak ELO rating of **1878** with 17,918+ rated games on lichess.com. Hit 1900 ELO in bullet chess last summer. Dedicated 550+ hours to deliberate practice and competition."
+    link: "https://lichess.org/@/BrennanBrown/perf/bullet"
+    linkText: "Challenge me on Lichess"
+    
+  - title: "🎵 Music Composition"
+    icon: "fa-music"
+    image: "images/hobbies/augustin.jpg"
+    description: "Published composer specializing in neo-classical and soundtrack composition (2011-2016). Three full albums including the Featherbent visual novel soundtrack."
+    link: "https://augustin.bandcamp.com/"
+    linkText: "Listen on Bandcamp"
+    
+  - title: "📷 Photography"
+    icon: "fa-camera"
+    description: "Macro nature photography curator with 299 published images, 162 watchers, and 30,900+ profile views. Focus on intricate beauty, texture, and organic life."
+    link: "https://qvl.deviantart.com/"
+    linkText: "View on DeviantArt"
+    
+  - title: "🇫🇷 French Language"
+    icon: "fa-language"
+    image: "images/hobbies/french.png"
+    description: "Achieved #1 Diamond League ranking on Duolingo (Top 0.1%). 224+ day current streak, historic 1,175-day streak. Over 96,500 XP and nearly 1,000 mastered vocabulary sentences."
+    link: "https://www.duolingo.com/profile/brennankbrown"
+    linkText: "See my Duolingo profile"
