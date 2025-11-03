@@ -52,84 +52,116 @@ Not everyone can contribute financially, and that's perfectly okay! Here are mea
 
 ---
 
-## 💰 Financial Support & Monthly Tiers
+## 💰 Financial Support & Patreon Tiers
 
-If you're able to contribute financially, here are ways to support with monthly perks:
+If you're able to contribute financially, join my Patreon community for exclusive content, early access, and direct support:
 
-### ☕ Coffee Tier — $3/month
+### 🌱 Seedling — $3 CAD/month
 
-**Perfect for:** Anyone who wants to say thanks and stay connected
+**Perfect for:** Anyone who wants to stay connected and support my work
 
-### Perks Include:
-- 💌 **Monthly Newsletter** — Exclusive updates on my projects, behind-the-scenes insights, and early announcements
-- 🎖️ **Supporter Badge** — Recognition on my GitHub Sponsors/Ko-fi page
-- 🙏 **My Gratitude** — You're directly enabling me to keep my work free and accessible
+#### Content Access:
+- 📝 Access to all patron-only posts and updates
+- 💌 Monthly newsletter with writing prompts, web dev tips, and Indigenous storytelling resources
+- ⏰ Early access (24-48 hours) to all public blog posts before they go live
+- 📱 Access to patron-only activity feed with micro-updates and work-in-progress snippets
 
----
+#### Community & Recognition:
+- 🏡 Name listed in supporters section on Berry House website
+- 💬 Access to patron-only Discord server with channels for writing chat, tech talk, and general community
+- 📣 Eligible for shoutouts in public posts (opt-in)
+- 💌 Welcome postcard (digital) with a handwritten-style message
 
-## 📚 Reader Tier — $8/month
+#### Digital Perks:
+- 🎙️ Patron-only podcast or voice note updates
+- 📂 Access to "rejected ideas" document: Projects, essays, and code experiments that didn't make it
+- 📚 Monthly reading/learning recommendations: What I'm reading, listening to, learning, etc.
 
-**Perfect for:** Supporters who love my writing and want early access
-
-### Everything in Coffee Tier, plus:
-- 📖 **Early Access to Writing** — Read new essays, poetry, and blog posts before they're published publicly
-- 🎁 **Digital Book Bundle** — Receive digital copies of my published books (PDFs/ePubs)
-- 💬 **Access to Private Discord** — Join a community of supporters for discussions, writing prompts, and creative accountability
-- 📝 **Monthly Writing Prompt** — Get a personalized creative writing prompt delivered each month
-
----
-
-## 💻 Developer Tier — $15/month
-
-**Perfect for:** Developers who benefit from my open-source themes and tools
-
-### Everything in Reader Tier, plus:
-- 🚀 **Priority Issue Resolution** — Get your GitHub issues on my projects addressed first
-- 🎨 **Theme Customization Guide** — Receive a comprehensive guide on customizing my Jekyll/Eleventy themes
-- 🔧 **Monthly Office Hours** — 30-minute monthly video call for technical questions, code reviews, or project advice
-- 📦 **Exclusive Code Snippets** — Access to a private repository of reusable code snippets, utilities, and templates
-- 🏷️ **Name in Credits** — Your name listed in the README of my active open-source projects
+#### Voting & Input:
+- 🗳️ Vote in polls about future content topics
+- 💡 Suggest topics for future posts via suggestion box
 
 ---
 
-## 🌟 Patron Tier — $30/month
+### 🌸 Blossom — $9 CAD/month
 
-**Perfect for:** Serious supporters who want hands-on collaboration
+**Perfect for:** Supporters who want deeper access to my creative and technical process
 
-### Everything in Developer Tier, plus:
-- 👤 **Personal Code Review** — Monthly code review session (up to 1 hour) for your projects
-- ✍️ **Content Editing Service** — I'll edit/proofread up to 2,000 words of your writing each month
-- 🎯 **Feature Requests** — Priority consideration for new features in my open-source projects
-- 📞 **Extended Office Hours** — 60-minute monthly call (can be used for consulting, pair programming, or writing workshops)
-- 🎁 **Physical Book Package** — Annual shipment of my newly published physical books (limited to one per year)
+#### Everything in Seedling, PLUS:
+
+**Exclusive Content (Writing):**
+- ✍️ 2-3 exclusive essays per month (1500+ words) not published elsewhere
+- 📝 Behind-the-scenes writing process posts: Drafts with tracked changes, revision notes, editorial decisions
+- 🎭 Exclusive poetry and prose that are "too weird" or "too raw" for public consumption
+- 📖 Early access (1 week) to chapters of work-in-progress books/chapbooks
+- 🎬 Character studies, worldbuilding notes, and "cut scenes" from published works
+- 📔 Access to my complete journal archive
+
+**Exclusive Content (Technical):**
+- 💻 1-2 exclusive tutorials per month on JAMstack, Eleventy, Jekyll, Hugo, accessibility
+- 🔍 Code walkthroughs with detailed annotations explaining decisions
+- 🏗️ Behind-the-scenes looks at Berry House client projects (anonymized)
+- 🚀 Early access (1 week) to new themes and open-source tools before public release
+- 🛠️ "How I built this" breakdowns of my personal projects
+- ♿ Accessibility audits of popular websites with educational commentary
+- 🌐 IndieWeb protocol tutorials (Webmentions, Micropub, RSS, etc.)
+
+**Exclusive Content (Hybrid/Process):**
+- 📊 Monthly "state of the work" post with current projects, struggles, wins
+- 🎯 Productivity system breakdowns, Beeminder goals, Obsidian setup, journaling templates
+- ⏱️ Time-tracking reports showing where my creative hours actually go
+- 🔧 "Tools I use" deep-dives on tech stack and writing workflows
+- 💵 Financial transparency posts, income reports, where patron funding goes
+
+**Community Engagement:**
+- ❓ Monthly office hours Q&A thread (asynchronous, I answer throughout the month)
+- 💬 Bi-weekly discussion prompts in Discord with participation
+- ⚡ Priority response to DMs and questions
+
+**Resources & Downloads:**
+- 📦 Access to growing resource library: writing worksheets, Beeminder templates, Obsidian templates
+- 🎨 Downloadable Jekyll/Eleventy starter templates
+- ✏️ Writing prompt PDFs and creative exercises from Write Club workshops
+- 📈 Productivity trackers and goal-setting templates
+- 🔗 Curated link collections on Indigenous literature, accessibility, IndieWeb movement
 
 ---
 
-## 🏆 Collaborator Tier — $50/month
+### 🔥 Founding Circle — $72 CAD/month
 
-**Perfect for:** Organizations or individuals seeking ongoing consultation
+**Perfect for:** Serious writers and developers who want comprehensive educational content and direct feedback
 
-### Everything in Patron Tier, plus:
-- 🤝 **Monthly Consulting** — Two 60-minute consultation sessions per month for web development, JAMstack migration, or content strategy
-- 🔨 **Custom Development** — Up to 3 hours of custom development work per month for your projects
-- 📊 **SEO & Performance Audit** — Quarterly audit of your website for performance, accessibility, and SEO
-- 🎤 **Workshop/Speaking** — One virtual workshop or presentation per year for your team or community
-- 🌐 **Logo Placement** — Your logo featured on my website's supporters page with a link to your site
-- 💼 **First Right of Refusal** — Priority access to hire me for larger contract projects
+**⚠️ Limited to 10 members**
 
----
+#### Everything in Blossom, PLUS:
 
-## 💖 Benefactor Tier — $100/month
+**Educational Content:**
+- 🎥 Monthly video workshop masterclass (30-45 min) on writing craft: Prose poetry, lyric essays, Indigenous storytelling, hybrid forms, revision strategies
+- 📹 Recorded workshop archive access from past Write Club sessions
+- 📚 Deep-dive craft essays (3000+ words) analyzing published works and techniques
+- ✍️ Monthly writing challenges with feedback from me
+- 📖 Curated reading list for serious writers with annotations
 
-**Perfect for:** Major supporters or organizations wanting maximum impact
+**Direct Feedback:**
+- 📝 Quarterly portfolio/manuscript feedback (up to 2,000 words): developmental comments, not line editing
+- 💭 Monthly writing prompt response with my example + feedback on one patron submission
+- 🤝 Access to critique partner matching system within patron community
 
-### Everything in Collaborator Tier, plus:
-- 🎨 **Custom JAMstack Site** — One custom JAMstack website per year (up to 10 pages, includes hosting setup)
-- ✨ **Dedicated Plugin/Theme** — I'll build a custom Jekyll/Eleventy plugin or theme based on your specifications (annually)
-- 📝 **Ghostwriting Service** — Up to 5,000 words of professional content written for you each month
-- 🎯 **Strategic Consulting** — Quarterly 2-hour strategy sessions for digital presence, content planning, or technical architecture
-- 🌟 **Named Sponsor** — Featured as a named sponsor on all my projects for the duration of your support
-- 🎁 **Custom Perks** — Let's discuss! This tier is flexible based on your specific needs
+**Exclusive Access:**
+- 📕 Complete early access to upcoming books/chapbooks (full manuscripts 2-3 months before publication)
+- 🎁 Exclusive short stories and essays written specifically for patrons
+- 🎤 Audio recordings of me reading my poetry (patron-exclusive performances)
+- 📓 Annotated reading list of my own work, what I was thinking when I wrote it
+
+**Community & Recognition:**
+- 🗳️ Vote on Write Club anthology themes and guest authors
+- 📻 Monthly live (or recorded) reading/discussion of patron work
+- 🏆 Acknowledgment in published books ("This book was made possible by...")
+
+**Discounts & Perks:**
+- 💼 50% discount on Berry House writing services (content strategy, copywriting, editing)
+- 📚 25% discount on signed copies of my published books
+- 🎨 Exclusive merch access: bookmarks, stickers with my poetry, etc.
 
 ---
 
