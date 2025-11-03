@@ -8,8 +8,8 @@ content: >
   
   
   Making a dent in the universe.
-buttonName: Contact me
-buttonURL: contact
+buttonName: Schedule a Call
+buttonURL: "https://calendly.com/brennanbrown/consult"
 image: images/hero/hero-image.jpg
 videoThumb: images/hero/popup-thumb.jpg
 videoURL: false

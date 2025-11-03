@@ -14,13 +14,16 @@ content: >
   - **☕ Ko-fi:** One-time tips or monthly support starting at $3/month
   
   - **💖 GitHub Sponsors:** Support my open-source development directly on GitHub
+  
+  - **🎨 Patreon:** Join my community with exclusive perks and behind-the-scenes content
 
 
   Every contribution, no matter how small, makes a meaningful difference and helps me continue making the web a more creative, accessible, and human-centric space.
 
 
-  **Want exclusive perks?** Check out my [support tiers](/tiers) for monthly supporters.
+  **Want to learn more?** Check out [all the ways to support](/support), including non-monetary options.
 
 kofiURL: "https://ko-fi.com/brennan"
 githubSponsorsURL: "https://github.com/sponsors/brennanbrown"
-tiersURL: "/tiers"
+patreonURL: "https://patreon.com/brennankbrown"
+tiersURL: "/support"
