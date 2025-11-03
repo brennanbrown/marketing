@@ -17,14 +17,16 @@ education:
 
       #### Mount Royal University
 
-      **Current GPA: 3.94**
+      **Final GPA: 3.8** • Graduated April 2025
 
       - Member of the Golden Key Honour Society
 
-      - President of the Creative Writing Club (https://writeclub.ca)
+      - Founder of the Creative Writing Club (https://writeclub.ca)
+
+      - President from September 2022 — June 2025
 
       - Contributor to The Reflector Newspaper
-    time: September 2021 — June 2024
+    time: September 2021 — April 2025
   - content: >
       ### Fullstack Web Development Program
 
@@ -52,16 +54,42 @@ education:
 
 experience:
   - content: >
-      ### Founder and Program Coordinator
+      ### Founder and Lead Developer
+
+      #### [Berry House](https://berryhouse.collective)
+
+      - Founded a social enterprise dedicated to reclaiming the internet from algorithm-driven homogeneity through JAMstack web development and compelling digital writing.
+
+      - Provide professional web development services (Hugo, Eleventy, Jekyll) to corporate clients at market rates while offering accessible pay-what-you-can support to non-profits and marginalized communities.
+
+      - Champion digital autonomy, creativity, and meaningful web experiences through consultation, custom development, content strategy, and storytelling workshops.
+
+      - Build and maintain open-source JAMstack themes and tools, contributing to the IndieWeb and Digital Gardens ecosystems.
+    time: January 2025 — Present
+  - content: >
+      ### Founder
 
       #### [Write Club](https://writeclub.ca)
 
-      - Develop and facilitate weekly meetings aimed at fostering a vibrant learning community of over 100 members, focusing on improving creative writing skills, promoting intellectual diversity; providing guidance and critique on pieces.
+      - Founded and facilitated weekly meetings fostering a vibrant learning community of over 100 members, focusing on improving creative writing skills and promoting intellectual diversity.
 
-      - Lead and organized fundraising events to raise money for the Canadian Children's Literacy Foundation, and other events such as author readings, local poetry slams, bookstore collaborations, and indie anthology publishing.
+      - Served as President from September 2022 — June 2025, leading fundraising events for the Canadian Children's Literacy Foundation and organizing author readings, poetry slams, bookstore collaborations, and indie anthology publishing.
 
-      - Developed and currently manage the digital publication, featuring members' creative writing pieces and club updates, expanding reach beyond university, with multiple social media marketing campaigns.
+      - Developed and manage the digital publication featuring members' creative writing pieces and club updates, expanding reach beyond university with multiple social media marketing campaigns.
     time: September 2022 — Present
+  - content: >
+      ### Technical Writer & Productivity Analyst
+
+      #### [Journal.kim / JournalBar](https://journal.kim)
+
+      - Published 70 consecutive weekly blog posts documenting comprehensive self-improvement experiment, achieving 100% consistency over 24-month period with 160,000+ words of technical documentation.
+
+      - Maintained 26 simultaneous behavioral tracking systems using Beeminder platform, demonstrating advanced project management and data analysis capabilities.
+
+      - Built and maintained Jekyll-based static site with custom CSS, JavaScript, and responsive design; managed 700+ GitHub commits for site infrastructure and open-source contributions.
+
+      - Integrated multiple tracking APIs and automation tools (RescueTime, IFTTT, GitHub API, Fitbit) to create comprehensive data pipeline for self-quantification.
+    time: February 2020 — January 2022
   - content: >
       ### Growth Marketing Program
 
@@ -92,3 +120,38 @@ experience:
 
       - Initially began on Medium, migrating to custom-built WordPress site.
     time: September 2020 — December 2022
+  - content: >
+      ### Crisis Support Volunteer
+
+      #### [7 Cups](https://www.7cups.com)
+
+      - Provided active listening and emotional support to individuals in distress on a global mental health platform, cultivating a safe and validating environment for members to share their experiences.
+
+      - Engaged in 790+ support chats, directly assisting 249+ individuals with their emotional well-being, sustaining a 5-star rating backed by 84 individual ratings and 19 detailed written reviews.
+
+      - Accumulated 37,842 Cheers (a measure of gratitude and impact) and a Compassion Score of 3,015, ranking among the platform's top contributors.
+
+      - Attained "Advanced Listener Level 5" certification by progressing through 105 specialized training steps.
+    time: October 2015 — Present
+  - content: >
+      ### Sous Chef
+
+      #### [Rotary Flames House](https://www.rotaryflameshouse.org/)
+
+      - Managed morning rush serving numerous families daily with efficient, levelheaded customer service in a hospice care environment.
+
+      - Updated menu with daily offerings and specials, using personalized artistic touches to create a comforting atmosphere for families in difficult circumstances.
+
+      - Correctly followed all health, safety and sanitation guidelines; managed inventory by establishing and adjusting ordering parameters, forecasting usage and controlling waste.
+    time: August 2015 — January 2020
+  - content: >
+      ### Housekeeper
+
+      #### [ServiceMaster Clean](https://www.servicemaster.com/)
+
+      - Experience cleaning within hospitals, businesses and educational settings with training in specifications of intensive-care and emergency protocols.
+
+      - Demonstrated diverse knowledge of particular sanitation techniques and heavy-lifting capabilities up to 30kg in laborious work environments.
+
+      - Maintained high standards of cleanliness and safety across multiple facility types.
+    time: August 2015 — December 2019

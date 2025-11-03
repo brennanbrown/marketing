@@ -1,0 +1,26 @@
+---
+enable: true
+topTitle: SUPPORT MY WORK
+title: >
+  ## Help Keep My FOSS Work Free & Accessible
+
+  If you've benefited from my open-source themes, tools, or writing, consider supporting my work.
+content: >
+  I've been creating **free and open-source software** (FOSS) for years—Jekyll themes, Eleventy starters, web development tools, and extensive documentation—all available at no cost. Your support helps me dedicate more time to building accessible tools, writing educational content, and contributing to the IndieWeb and JAMstack communities.
+
+
+  ### Ways to Support
+
+  - **☕ Ko-fi:** One-time tips or monthly support starting at $3/month
+  
+  - **💖 GitHub Sponsors:** Support my open-source development directly on GitHub
+
+
+  Every contribution, no matter how small, makes a meaningful difference and helps me continue making the web a more creative, accessible, and human-centric space.
+
+
+  **Want exclusive perks?** Check out my [support tiers](/tiers) for monthly supporters.
+
+kofiURL: "https://ko-fi.com/brennan"
+githubSponsorsURL: "https://github.com/sponsors/brennanbrown"
+tiersURL: "/tiers"

@@ -1,0 +1,59 @@
+{{ with .Site.Data.booksSection }}
+{{ if .enable }}
+<section class="section books" id="books" style="background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);">
+	<div class="container">
+		<div class="row mb-5">
+			<div class="col-lg-6">
+				<div class="books__header" style="color: white;">
+					<span class="top-title pre-line" style="color: #dcfce7;">{{ .topTitle }}</span>
+					<div style="color: white;">{{ .title | markdownify }}</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="books__header_button desktop text-right">
+					<a class="btn btn-light btn-zoom m-3" href="{{ .buttonTarget | absURL }}">See All Books</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			{{ range first 3 .books }}
+			<div class="col-lg-4 mb-4">
+				<div class="books__item bg-white rounded shadow-lg overflow-hidden h-100">
+					<div class="books__item-cover" style="height: 350px; overflow: hidden; background: #f3f4f6;">
+						<img src="{{ .image | absURL }}" alt="{{ .title }}" style="width: 100%; height: 100%; object-fit: cover;">
+					</div>
+					<div class="books__item-content p-4">
+						<h5 class="mb-2">{{ .title }}</h5>
+						<p class="text-muted small mb-2">{{ .pages }} pages • {{ .year }}</p>
+						{{ if .rating }}
+						<p class="mb-3"><strong>{{ .rating }}</strong></p>
+						{{ end }}
+						<p class="small mb-3">{{ .excerpt }}</p>
+						<div class="books__item-links">
+							<a href="{{ .amazonURL }}" target="_blank" class="btn btn-sm btn-dark btn-zoom me-2 mb-2">
+								<i class="fa fa-amazon"></i> Amazon
+							</a>
+							{{ if .gumroadURL }}
+							<a href="{{ .gumroadURL }}" target="_blank" class="btn btn-sm btn-outline-dark btn-zoom mb-2">
+								Gumroad
+							</a>
+							{{ end }}
+						</div>
+					</div>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="books__header_button mobile text-center mt-3">
+					<a class="btn btn-light btn-zoom" href="{{ .buttonTarget | absURL }}">See All Books</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }}
+{{ end }}

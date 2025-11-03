@@ -1,0 +1,94 @@
+---
+enable: true
+topTitle: OTHER PROJECTS
+title: >
+  ## Apps, Tools & Websites
+
+  Full-stack applications, developer tools, and community websites.
+
+buttonTarget: portfolio
+projects:
+  - title: "JournalFor.me"
+    image: "images/portfolio/journalforme-live.png"
+    description: "Secure Markdown journal with zero-knowledge encryption and offline support"
+    tech: "TypeScript, Vite, Tailwind, PostgreSQL"
+    demoURL: "https://journalforme.netlify.app"
+    repoURL: "https://github.com/brennanbrown/journalfor.me"
+
+  - title: "Bearminder"
+    image: "images/portfolio/bearminder-live.png"
+    description: "macOS menubar app tracking word counts from Bear to Beeminder"
+    tech: "Swift, macOS AppKit, APIs"
+    demoURL: "https://bearminder.netlify.app"
+    repoURL: "https://github.com/brennanbrown/bearminder"
+
+  - title: "Moneytree"
+    image: "images/portfolio/moneytree-live.png"
+    description: "Privacy-first personal finance PWA with offline support"
+    tech: "Eleventy, IndexedDB, Service Workers"
+    demoURL: "https://moneytree-pwa.netlify.app/"
+    repoURL: "https://github.com/brennanbrown/moneytree"
+
+  - title: "Jekyll Audit"
+    image: "images/portfolio/jekyll-audit-live.png"
+    description: "CLI tool to audit Jekyll sites for performance and accessibility"
+    tech: "TypeScript, Lighthouse, Pa11y"
+    demoURL: "https://www.npmjs.com/package/@brennanbrown/jekyll-audit"
+    repoURL: "https://github.com/brennanbrown/jekyll-audit"
+
+  - title: "Write Club"
+    image: "images/portfolio/writeclub-live.png"
+    description: "Official website for Mount Royal University's Creative Writing Club"
+    stars: 2
+    tech: "Jekyll, SCSS"
+    demoURL: "https://writeclub.ca"
+    repoURL: "https://github.com/brennanbrown/WriteClub"
+
+  - title: "Romance & Community Conference"
+    image: "images/portfolio/communityandromance-live.png"
+    description: "MRU English Honours Conference site with dynamic schedule and speaker profiles"
+    tech: "Jekyll, JavaScript"
+    demoURL: "https://honoursconference2024.com"
+    repoURL: "https://github.com/brennanbrown/communityandromance"
+
+  - title: "CSET — Calgary Society for Equity in Technology"
+    image: "images/portfolio/cset-live.png"
+    description: "Volunteer initiative building equitable access to technology"
+    tech: "Jekyll, Bootstrap, TypeForm"
+    demoURL: "https://cset.netlify.app/"
+    repoURL: "https://github.com/brennanbrown/cset"
+
+  - title: "Kindread the Poet"
+    image: "images/portfolio/kindreadthepoet-live.png"
+    description: "Professional artist site for Filipino-Canadian spoken-word poet"
+    tech: "Jekyll, HTML, CSS"
+    demoURL: "https://kindreadthepoet.com"
+    repoURL: "https://github.com/brennanbrown/kindreadthepoet"
+
+  - title: "WatermelonClub"
+    image: "images/portfolio/watermelonclub-live.png"
+    description: "Palestine solidarity resources for Canadian students"
+    tech: "Jekyll, Accessibility Focus"
+    demoURL: "https://watermelonclub.org"
+    repoURL: "https://github.com/brennanbrown/WatermelonClub"
+
+  - title: "thinkingwhy.com"
+    image: "images/portfolio/thinkingwhy-com-live.png"
+    description: "Type-safe Astro 5 JAMstack blog with semantic SEO"
+    tech: "Astro 5, TypeScript, Tailwind"
+    demoURL: "https://thinkingwhy.com"
+    repoURL: "https://github.com/brennanbrown/thinkingwhy.com"
+
+  - title: "Markdown to DOCX Converter"
+    image: "images/portfolio/markdown-to-docx-live.png"
+    description: "Web tool to convert Markdown files to Word format"
+    tech: "Python, JavaScript, Pandoc"
+    demoURL: "https://md-to-doc.netlify.app"
+    repoURL: "https://github.com/brennanbrown/markdown-to-docx"
+
+  - title: "Self-Teach Academy"
+    image: "images/portfolio/sta-landing-page-live.png"
+    description: "Learning dashboard concept for self-taught students"
+    tech: "Next.js, TypeScript, Prisma"
+    demoURL: "https://brennanbrown.github.io/STA-landing-page/"
+    repoURL: "https://github.com/brennanbrown/STA-landing-page"
