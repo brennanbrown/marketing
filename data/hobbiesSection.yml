@@ -1,6 +1,6 @@
 ---
 enable: true
-topTitle: BEYOND THE CODE
+topTitle: Other fun things I get up to sometimes
 title: >
   ## Hobbies & Creative Pursuits
 
@@ -23,6 +23,7 @@ hobbies:
     
   - title: "📷 Photography"
     icon: "fa-camera"
+    image: "images/hobbies/deviantart.jpg"
     description: "Macro nature photography curator with 299 published images, 162 watchers, and 30,900+ profile views. Focus on intricate beauty, texture, and organic life."
     link: "https://qvl.deviantart.com/"
     linkText: "View on DeviantArt"
