@@ -11,7 +11,7 @@ books:
   - title: "PRAIRIE BOYSPIRIT: An NDN Memoir"
     image: "images/books/prairie-boyspirit.jpg"
     amazonURL: "https://www.amazon.ca/dp/B0DQTPYKHD"
-    gumroadURL: "#"
+    gumroadURL: "https://brennanbrown.gumroad.com"
     pages: 50
     year: 2024
     rating: "5.0/5 ⭐"
@@ -20,15 +20,16 @@ books:
   - title: "THE DOGWOOD VERSES: Selected Writings 2011-2021"
     image: "images/books/dogwood-verses.jpg"
     amazonURL: "https://www.amazon.ca/dp/B0DQTPYKHD"
-    gumroadURL: "#"
+    gumroadURL: "https://brennanbrown.gumroad.com"
     pages: 587
     year: 2021
+    rating: "4.8/5 ⭐"
     excerpt: "An anthology of over 300 poems spanning a decade—an inevitable cocktail of nostalgia, regret and love. A slow-burn meditation on everything vital, everything that's keeping the author alive."
 
   - title: "The Weight of Yr Heart: Love Poetry for Connie Yu"
     image: "images/books/weight-of-yr-heart.jpg"
     amazonURL: "https://www.amazon.ca/dp/B0DQTPYKHD"
-    gumroadURL: "#"
+    gumroadURL: "https://brennanbrown.gumroad.com"
     pages: 54
     year: 2023
     rating: "5.0/5 ⭐"
