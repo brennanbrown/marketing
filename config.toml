@@ -11,37 +11,25 @@ name = "Home"
 url = "#home"
 weight = 1
 [[menu.main]]
-name = "Berry House"
-url = "#berryhouse"
-weight = 2
-[[menu.main]]
 name = "About"
 url = "#about"
-weight = 3
-[[menu.main]]
-name = "Books"
-url = "books"
-weight = 4
+weight = 2
 [[menu.main]]
 name = "Work"
 url = "portfolio"
-weight = 5
+weight = 3
 [[menu.main]]
 name = "Writing"
 url = "blog"
-weight = 6
+weight = 4
 [[menu.main]]
 name = "Resume"
 url = "#resume"
-weight = 7
-[[menu.main]]
-name = "Support Me"
-url = "tiers"
-weight = 8
+weight = 5
 [[menu.main]]
 name = "Contact"
 url = "contact"
-weight = 9
+weight = 6
 
 # Sitemap Menu
 [[menu.sitemap]]

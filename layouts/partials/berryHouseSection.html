@@ -1,22 +1,27 @@
 {{ with .Site.Data.berryHouseSection }}
 {{ if .enable }}
-<section class="section berryhouse" id="berryhouse" style="background: linear-gradient(135deg, {{ .backgroundColor }} 0%, #991b1b 100%);">
+<section class="section berryhouse" id="berryhouse">
+	<div class="berryhouse__shape">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); opacity: 0.08; width: 500px;">
+			<path fill="#dc2626" d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+		</svg>
+	</div>
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-lg-6 order-2 order-lg-1">
-				<div class="berryhouse__content" style="color: white;">
-					<span class="top-title pre-line" style="color: #fecaca;">{{ .topTitle }}</span>
-					<div style="color: white;">{{ .title | markdownify }}</div>
-					<div style="color: #fee2e2;">{{ .content | markdownify }}</div>
+			<div class="col-lg-6">
+				<div class="berryhouse__content">
+					<span class="top-title pre-line" style="color: #dc2626;">{{ .topTitle }}</span>
+					{{ .title | markdownify }}
+					{{ .content | markdownify }}
 					<div class="berryhouse__buttons mt-4">
-						<a href="{{ .buttonURL }}" class="btn btn-light btn-zoom mb-3 mb-sm-0" style="margin-right: 1rem;">{{ .buttonName }}</a>
-						<a href="{{ .secondaryButtonURL | absURL }}" class="btn btn-outline-light btn-zoom">{{ .secondaryButtonName }}</a>
+						<a href="{{ .buttonURL }}" class="btn btn-primary btn-zoom mb-3 mb-sm-0" style="margin-right: 1rem; background-color: #dc2626; border-color: #dc2626;">{{ .buttonName }}</a>
+						<a href="{{ .secondaryButtonURL | absURL }}" class="btn btn-outline-secondary btn-zoom">{{ .secondaryButtonName }}</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
+			<div class="col-lg-6">
 				<div class="berryhouse__image text-center">
-					<img src="{{ .image | absURL }}" alt="Berry House" class="img-fluid rounded shadow-lg" style="max-width: 90%;">
+					<img src="{{ .image | absURL }}" alt="Berry House" class="img-fluid rounded shadow-sm" style="max-width: 90%;">
 				</div>
 			</div>
 		</div>
