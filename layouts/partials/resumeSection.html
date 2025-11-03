@@ -1,0 +1,103 @@
+{{ with .Site.Data.resumeSection }}
+{{ if .enable }}
+<section class="section resume" id="resume">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <span class="top-title pre-line">{{ .topTitle }}</span>
+        {{ .title | markdownify }}
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-lg-10 mx-auto">
+        <ul class="nav nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item m-2">
+            <a class="nav-link btn btn-secondary btn-zoom active" id="pills-{{ .tab1Target }}-tab" data-toggle="pill"
+              href="#pills-{{ .tab1Target }}" role="tab" aria-controls="pills-{{ .tab1Target }}" aria-selected="true">
+              {{ .tab1Name }}
+            </a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link btn btn-secondary btn-zoom" id="pills-{{ .tab2Target }}-tab" data-toggle="pill"
+              href="#pills-{{ .tab2Target }}" role="tab" aria-controls="pills-{{ .tab2Target }}" aria-selected="false">
+              {{ .tab2Name }}
+            </a>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-{{ .tab1Target }}" role="tabpanel"
+            aria-labelledby="pills-{{ .tab1Target }}-tab">
+            <div class="timeline">
+              {{ range $index, $element := .education }}
+              <div class="timeline-item">
+                <span>{{ $element.time }}</span>
+                <div class="timeline-content">
+                  {{ $element.content | markdownify }}
+                </div>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-{{ .tab2Target }}" role="tabpanel" aria-labelledby="pills-{{ .tab2Target }}-tab">
+            <div class="timeline">
+              {{ range $index, $element := .experience }}
+              <div class="timeline-item">
+                <span>{{ $element.time }}</span>
+                <div class="timeline-content">
+                  {{ $content := $element.content | markdownify }}
+                  {{ $lines := split $content "\n" }}
+                  {{ $title := index $lines 0 }}
+                  {{ $company := index $lines 2 }}
+                  
+                  <!-- Show title and company -->
+                  <div class="experience-header">
+                    {{ $title | safeHTML }}
+                    {{ $company | safeHTML }}
+                    <button class="btn btn-sm btn-outline-secondary mt-2" type="button" data-toggle="collapse" 
+                      data-target="#experience-{{ $index }}" aria-expanded="false" aria-controls="experience-{{ $index }}">
+                      <i class="fa fa-chevron-down"></i> Show Details
+                    </button>
+                  </div>
+                  
+                  <!-- Collapsible details -->
+                  <div class="collapse" id="experience-{{ $index }}">
+                    <div class="experience-details mt-3">
+                      {{ range $i, $line := $lines }}
+                        {{ if gt $i 2 }}
+                          {{ $line | safeHTML }}
+                        {{ end }}
+                      {{ end }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+// Toggle button text on collapse
+document.addEventListener('DOMContentLoaded', function() {
+  const collapseElements = document.querySelectorAll('[data-toggle="collapse"]');
+  collapseElements.forEach(function(btn) {
+    const targetId = btn.getAttribute('data-target');
+    const target = document.querySelector(targetId);
+    
+    target.addEventListener('show.bs.collapse', function() {
+      btn.innerHTML = '<i class="fa fa-chevron-up"></i> Hide Details';
+    });
+    
+    target.addEventListener('hide.bs.collapse', function() {
+      btn.innerHTML = '<i class="fa fa-chevron-down"></i> Show Details';
+    });
+  });
+});
+</script>
+
+{{ end }}
+{{ end }}
