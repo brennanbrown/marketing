@@ -1,16 +1,62 @@
 ---
-title: "Support Tiers & Perks"
+title: "Support My Work"
 date: 2025-01-01
-description: "Support my FOSS work and get exclusive perks based on your monthly contribution"
+description: "Ways to support my FOSS work, writing, and community building—both with and without money"
 ---
 
-# Support Tiers & Monthly Perks
+# Ways to Support My Work
 
-Thank you for considering supporting my work! Your contribution helps me continue creating free and open-source software, writing educational content, and building accessible tools for the web development and writing communities.
+Thank you for considering supporting my work! There are many ways to help—some involve financial support, others just require your time and enthusiasm. Every form of support makes a real difference in helping me continue creating free and open-source software, writing, and building accessible tools for the web development and creative writing communities.
 
 ---
 
-## ☕ Coffee Tier — $3/month
+## 🆓 Support Without Spending Money
+
+Not everyone can contribute financially, and that's perfectly okay! Here are meaningful ways you can support my work at zero cost:
+
+### 📣 Spread the Word
+- **Share my content** on social media (Twitter/X, Mastodon, Bluesky, LinkedIn)
+- **Recommend my themes/tools** to friends, colleagues, or your dev community
+- **Link to my projects** from your blog, portfolio, or documentation
+- **Mention me in talks** or presentations if you've used my work
+- **Write about your experience** using my tools on your blog or Medium
+
+### ⭐ Engage on GitHub
+- **Star my repositories** to boost visibility
+- **Fork and experiment** with my themes and tools
+- **Report bugs** or **suggest features** via GitHub issues
+- **Submit pull requests** for fixes or improvements
+- **Help with documentation** by correcting typos or adding examples
+- **Answer questions** from other users in discussions
+
+### ✍️ Support My Writing
+- **Leave reviews** on Amazon for my published books
+- **Share my essays** on Medium, Tumblr, or other platforms
+- **Comment and engage** with my blog posts
+- **Subscribe to my newsletter** for updates
+- **Leave testimonials** about how my work has helped you
+
+### 🌐 Community Participation
+- **Join [Write Club](https://writeclub.ca)** if you're in Calgary
+- **Follow me** on social platforms (Bluesky, Mastodon, Threads, Tumblr)
+- **Provide feedback** on new projects or beta features
+- **Help test accessibility** and report issues
+- **Suggest content ideas** or tutorial topics
+- **Translate content** into other languages
+
+### 💼 Professional Support
+- **Hire me for contract work** through [Berry House](https://berryhouse.ca)
+- **Book a consultation** to discuss your project: [Schedule a call](https://calendly.com/brennanbrown/consult)
+- **Refer clients** who need JAMstack development or content strategy
+- **Write a testimonial** for my professional services
+
+---
+
+## 💰 Financial Support & Monthly Tiers
+
+If you're able to contribute financially, here are ways to support with monthly perks:
+
+### ☕ Coffee Tier — $3/month
 
 **Perfect for:** Anyone who wants to say thanks and stay connected
 
@@ -87,12 +133,13 @@ Thank you for considering supporting my work! Your contribution helps me continu
 
 ---
 
-## 🚀 How to Support
+## 🚀 Choose Your Platform
 
-Choose your tier and sign up through:
+Select your preferred platform for financial support:
 
 - **☕ [Ko-fi](https://ko-fi.com/brennan)** — Easy monthly memberships starting at $3/month
 - **💖 [GitHub Sponsors](https://github.com/sponsors/brennanbrown)** — Support my open-source work directly
+- **🎨 [Patreon](https://patreon.com/brennankbrown)** — Exclusive perks and behind-the-scenes content
 
 ---
 
