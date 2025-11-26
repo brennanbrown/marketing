@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brennan's Microblogs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'JetBrains Mono', 'Courier New', monospace;
+            background: #0a0a0a;
+            color: #f0f0f0;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 380px;
+            width: 100%;
+        }
+
+        header {
+            border: 2px solid #f0f0f0;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+
+        .tagline {
+            font-size: 0.75rem;
+            opacity: 0.6;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.25rem 1.5rem;
+            border: 2px solid #f0f0f0;
+            margin-top: -2px;
+            text-decoration: none;
+            color: #f0f0f0;
+            font-size: 0.9rem;
+            font-weight: 400;
+            text-transform: lowercase;
+            transition: all 0.1s;
+            background: #0a0a0a;
+        }
+
+        a:first-child {
+            margin-top: 0;
+        }
+
+        a:hover {
+            background: #f0f0f0;
+            color: #0a0a0a;
+        }
+
+        a i {
+            font-size: 1.4rem;
+            width: 1.5rem;
+            text-align: center;
+        }
+
+        .handle {
+            margin-left: auto;
+            font-size: 0.7rem;
+            opacity: 0.5;
+        }
+
+        .footer {
+            margin-top: 1.5rem;
+            padding: 1rem 1.5rem;
+            border: 2px solid #f0f0f0;
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            opacity: 0.4;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Brennan Kenneth Brown</h1>
+            <p class="tagline">// microblog links</p>
+        </header>
+
+        <div class="links">
+            <a href="https://www.threads.com/@brennankbrown" target="_blank" rel="noopener">
+                <i class="fa-brands fa-threads"></i>
+                threads
+                <span class="handle">@brennankbrown</span>
+            </a>
+
+            <a href="https://bsky.app/profile/brennanbrown.bsky.social" target="_blank" rel="noopener">
+                <i class="fa-brands fa-bluesky"></i>
+                bluesky
+                <span class="handle">@brennanbrown</span>
+            </a>
+
+            <a href="https://me.dm/@brennanbrown" target="_blank" rel="noopener">
+                <i class="fa-brands fa-mastodon"></i>
+                mastodon
+                <span class="handle">@brennanbrown</span>
+            </a>
+        </div>
+
+        <p class="footer">writer / poet / web dev</p>
+    </div>
+</body>
+</html>
