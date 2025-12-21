@@ -16,7 +16,7 @@ url = "#about"
 weight = 2
 [[menu.main]]
 name = "Work"
-url = "portfolio"
+url = "projects"
 weight = 3
 [[menu.main]]
 name = "Writing"
@@ -78,34 +78,38 @@ pinImage = "images/pin.png"
 
 # Social icons
 [[params.social]]
+icon = "fa-globe"
+url = "https://brennan.day"
+weight = 1
+[[params.social]]
 icon = "fa-github-alt"
 url = "https://www.github.com/brennanbrown"
-weight = 1
+weight = 2
 [[params.social]]
 icon = "fa-linkedin"
 url = "https://www.linkedin.com/in/brennankbrown"
-weight = 2
+weight = 3
 [[params.social]]
 icon = "fa-tumblr"
 url = "https://bkpoetry.com/"
-weight = 3
+weight = 4
 [[params.social]]
 icon = "fa-medium"
 url = "https://blog.brennanbrown.ca"
-weight = 4
+weight = 5
 [[params.social]]
 icon = "fa-cloud"
 url = "https://bsky.app/profile/brennan.bsky.social"
-weight = 5
+weight = 6
 [[params.social]]
 icon = "fa-mastodon"
 url = "https://mastodon.social/@brennan"
-weight = 6
+weight = 7
 [[params.social]]
 icon = "fa-graduation-cap"
 url = "https://www.researchgate.net/profile/Brennan-Brown-2"
-weight = 7
+weight = 8
 [[params.social]]
 icon = "fa-envelope"
 url = "mailto:mail@brennanbrown.ca"
-weight = 8
+weight = 9
