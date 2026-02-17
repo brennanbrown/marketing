@@ -80,7 +80,7 @@ experience:
   - content: >
       ### Technical Writer & Productivity Analyst
 
-      #### [Journal.kim / JournalBar](https://journal.kim)
+      #### [Journal.kim / JournalBar](https://beejournal.netlify.app)
 
       - Published 70 consecutive weekly blog posts documenting comprehensive self-improvement experiment, achieving 100% consistency over 24-month period with 160,000+ words of technical documentation.
 
@@ -155,3 +155,6 @@ experience:
 
       - Maintained high standards of cleanliness and safety across multiple facility types.
     time: August 2015 — December 2019
+
+buttonName: View Full Resume
+buttonURL: https://cv.brennanbrown.ca

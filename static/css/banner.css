@@ -1,0 +1,61 @@
+.bottom-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(90deg, 
+    rgba(255, 182, 193, 0.6) 0%, 
+    rgba(173, 216, 230, 0.6) 25%, 
+    rgba(152, 251, 152, 0.6) 50%, 
+    rgba(255, 255, 224, 0.6) 75%, 
+    rgba(255, 182, 193, 0.6) 100%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 8px 15px;
+  text-align: center;
+  z-index: 1000;
+  font-size: 12px;
+  color: #000;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 -2px 15px rgba(0, 0, 0, 0.3);
+  animation: rainbow-shift 8s ease-in-out infinite;
+  background-size: 200% 100%;
+}
+
+.bottom-banner a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.9);
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.bottom-banner a:hover {
+  color: #0052a3;
+  text-decoration: underline;
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 1);
+}
+
+@keyframes rainbow-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Add some bottom padding to body to prevent content overlap */
+body {
+  padding-bottom: 45px !important;
+}
+
+@media (max-width: 768px) {
+  .bottom-banner {
+    font-size: 11px;
+    padding: 6px 12px;
+  }
+  
+  body {
+    padding-bottom: 35px !important;
+  }
+}
