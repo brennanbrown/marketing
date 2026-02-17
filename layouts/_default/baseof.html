@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+
+<body>
+  {{ partial "navbar.html" . }}
+  <div id="content">
+    {{ block "main" . }}{{ end }}
+  </div>
+  {{ partial "footer.html" . }}
+  {{ block "bottom-banner" . }}{{ end }}
+  
+  <!-- Custom banner CSS -->
+  <link rel="stylesheet" href="{{ "css/banner.css" | absURL }}">
+  
+  <!-- Custom navigation smooth scroll -->
+  <script src="{{ "js/nav-smooth-scroll.js" | absURL }}"></script>
+</body>
+
+</html>

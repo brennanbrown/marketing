@@ -24,7 +24,7 @@ url = "blog"
 weight = 4
 [[menu.main]]
 name = "Resume"
-url = "#resume"
+url = "https://cv.brennanbrown.ca"
 weight = 5
 [[menu.main]]
 name = "Contact"
@@ -38,7 +38,7 @@ url = "https://brennanbrown.ca"
 weight = 1
 [[menu.sitemap]]
 name = "Resume/CV"
-url = "Resume.pdf"
+url = "https://cv.brennanbrown.ca"
 weight = 2
 [[menu.sitemap]]
 name = "Source Code"
@@ -103,7 +103,7 @@ url = "https://bsky.app/profile/brennan.bsky.social"
 weight = 6
 [[params.social]]
 icon = "fa-mastodon"
-url = "https://mastodon.social/@brennan"
+url = "https://social.lol/@brennan"
 weight = 7
 [[params.social]]
 icon = "fa-graduation-cap"
