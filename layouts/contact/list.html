@@ -127,7 +127,7 @@
           <h3>Or Send a Message</h3>
         </div>
         <div class="contact-form-input">
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true" netlify action="/contact/?success=true">
             <input type="hidden" name="form-name" value="contact" />
 
             <div class="form-row">
@@ -202,3 +202,6 @@
 </section>
 
 {{ end }}
+
+<link rel="stylesheet" href="{{ "css/contact-form.css" | absURL }}">
+<script src="{{ "js/contact-form.js" | absURL }}"></script>
