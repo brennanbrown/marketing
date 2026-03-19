@@ -10,3 +10,7 @@
 
 [context.deploy-preview.environment]
   HUGO_ENV = "preview"
+
+# Form handling configuration
+[forms]
+  enabled = true

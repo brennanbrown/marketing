@@ -127,7 +127,8 @@
           <h3>Or Send a Message</h3>
         </div>
         <div class="contact-form-input">
-          <form id="contact-form" action="{{ .Site.Params.fabformURL }}" method="POST">
+          <form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
 
             <div class="form-row">
 
@@ -152,7 +153,7 @@
               </div>
             </div>
 
-            <button type="submit" class="btn btn-primary btn-zoom" id="contact-form-button" formtarget="_blank">Send Message</button>
+            <button type="submit" class="btn btn-primary btn-zoom">Send Message</button>
             <p id="contact-form-status" class="mt-3"></p>
           </form>
           <!-- <form>
