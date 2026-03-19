@@ -1,0 +1,49 @@
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+
+PROJECT:	Portio HTML
+VERSION:	1.0.0
+-------------------------------------------------------------------*/
+@import "variables";
+
+@import "../bootstrap-4.5.2/scss/bootstrap";
+
+@import "typography";
+
+@import "mixins";
+
+@import "buttons";
+
+@import "common";
+
+@import "components/preloder";
+
+@import "components/navbar";
+
+@import "components/hero-section";
+
+@import "components/about-section";
+
+@import "components/service-section";
+
+@import "components/portfolio-section";
+
+@import "components/resume-section";
+
+@import "components/skill-section";
+
+@import "components/testimonial-section";
+
+@import "components/blog-section";
+
+@import "components/footer-section";
+
+@import "components/blog";
+
+@import "components/single-blog-post";
+
+@import "components/page-title";
+
+@import "components/contact";
+
+@import "components/case_details";
