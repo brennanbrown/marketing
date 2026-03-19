@@ -193,8 +193,15 @@
         </div>
       </div>
       <div class="col-lg-6">
-        {{ $map := .Site.Params.map }}
-        <div id="map" data-lat={{ $map.latitude }} data-long={{ $map.longitude }} data-pin={{ $map.pinImage | absURL }}>
+        <div class="map-container">
+          <iframe 
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-114.1718%2C51.0259%2C-113.9940%2C51.0686&amp;layer=mapnik&amp;marker=51.0473%2C-114.0716"
+            width="100%" 
+            height="450" 
+            frameborder="0" 
+            style="border:0; border-radius: 10px;" 
+            allowfullscreen>
+          </iframe>
         </div>
       </div>
     </div>
