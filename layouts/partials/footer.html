@@ -68,13 +68,13 @@
 					{{ $address := .Site.Params.address }}
 				<ul class="fa-ul small">
 				    <li class="mb-2"><a class="text-light" href="tel:{{ $address.phone }}"><span class="fa-li"><i
-				                    class="fa fa-phone"></i></span>{{ $address.phone }}</a></li>
+				                    class="fa-solid fa-phone"></i></span>{{ $address.phone }}</a></li>
 				    <li class="mb-2"><a class="text-light" href="mailto:{{ $address.email }}"><span class="fa-li"><i
-				                    class="fa fa-envelope"></i></span>{{ $address.email }}</a></li>
+				                    class="fa-solid fa-envelope"></i></span>{{ $address.email }}</a></li>
 				    <li class="mb-2">
-				        <span class="fa-li"><i class="fa fa-map-marker"></i></span>{{ $address.address }}</a></li>
+				        <span class="fa-li"><i class="fa-solid fa-location-dot"></i></span>{{ $address.address }}</a></li>
 				    <li class="mb-2"><a class="text-light" href="https://www.researchgate.net/profile/Brennan-Brown-2"><span class="fa-li"><i
-				                    class="fa fa-graduation-cap"></i></span>ResearchGate Profile</a></li>
+				                    class="fa-solid fa-graduation-cap"></i></span>ResearchGate Profile</a></li>
 				</ul>
 				</div>
 			</div>
@@ -92,7 +92,7 @@
 						{{ $social := .Site.Params.social }}
 						{{ range $social }}
 						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="{{ .url }}"><i
-									class="fa {{ .icon }} fa-2x"></i></a>
+									class="{{ .icon }} fa-2x"></i></a>
 						</li>
 						{{ end }}
 					</ul>

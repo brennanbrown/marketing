@@ -46,7 +46,7 @@
       </div>
     </div>
 
-    {{ with .Site.Data.projectsSection }}
+    {{ with hugo.Data.projectsSection }}
     <div class="row">
       {{ range .projects }}
       <div class="col-lg-6 mb-4">
@@ -73,7 +73,7 @@
               {{ end }}
               {{ if .repoURL }}
               <a href="{{ .repoURL }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary btn-sm btn-zoom">
-                <i class="fa fa-github"></i> View Code
+                <i class="fa-brands fa-github"></i> View Code
               </a>
               {{ end }}
             </div>

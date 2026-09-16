@@ -1,0 +1,44 @@
+{{ with hugo.Data.statsSection }}
+{{ if .enable }}
+<section class="section stats" id="stats" style="background: #f9fafb;">
+	<div class="container">
+		<div class="row mb-5">
+			<div class="col-lg-8">
+				<div class="stats__header">
+					<span class="top-title pre-line">{{ .topTitle }}</span>
+					{{ .title | markdownify }}
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="stats__header_button desktop text-right">
+					<a class="btn btn-outline-secondary btn-zoom m-3" href="{{ .buttonTarget | absURL }}">{{ .buttonName }}</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			{{ range .stats }}
+			<div class="col-lg-4 mb-4">
+				<div class="stats__item p-4 bg-white rounded shadow-sm h-100">
+					<div class="d-flex align-items-center mb-2">
+						<i class="{{ .icon }} fa-2x mr-3" style="color: #5d78ff;"></i>
+						<span class="h3 mb-0">{{ .value }}</span>
+					</div>
+					<h5 class="mb-2">{{ .label }}</h5>
+					<p class="small text-muted mb-0">{{ .detail | markdownify }}</p>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="stats__header_button mobile text-center mt-3">
+					<a class="btn btn-light btn-zoom" href="{{ .buttonTarget | absURL }}">{{ .buttonName }}</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }}
+{{ end }}

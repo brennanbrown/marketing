@@ -9,11 +9,64 @@
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  {{ "<!-- Basic Meta -->" | safeHTML }}
+  {{ $description := .Description | default .Params.tagline | default .Params.shortDescription | default site.Params.description }}
+  {{ $ogTitle := cond .IsHome "Brennan Kenneth Brown: Digital Marketer & Web Developer" .Title }}
+  {{ $ogImage := .Params.featureImage | default .Params.thumbnail | default "images/opengraph.jpg" }}
+  {{ $canonical := .Params.externalURL | default .Permalink }}
+  {{ $isArticle := eq .Type "blog" }}
+  <meta name="description" content="{{ $description }}" />
+  <meta name="author" content="Brennan Kenneth Brown" />
+  <meta name="generator" content="Hugo {{ hugo.Version }}" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="theme-color" content="#5d78ff" />
+  <meta name="msapplication-TileColor" content="#5d78ff" />
+  <meta name="geo.region" content="CA-AB" />
+  <meta name="geo.placename" content="Calgary" />
+  <meta name="geo.position" content="{{ site.Params.map.latitude }};{{ site.Params.map.longitude }}" />
+  <meta name="ICBM" content="{{ site.Params.map.latitude }};{{ site.Params.map.longitude }}" />
+  <meta name="fediverse:creator" content="@brennan@social.lol" />
+  <link rel="canonical" href="{{ $canonical }}" />
+  {{ with .OutputFormats.Get "RSS" }}
+  <link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .Permalink }}" />
+  {{ end }}
+  {{ range site.Params.social }}{{ if not (hasPrefix .url "mailto:") }}
+  <link rel="me" href="{{ .url }}" />{{ end }}{{ end }}
+
+  {{ "<!-- Open Graph -->" | safeHTML }}
+  <meta property="og:title" content="{{ $ogTitle }}" />
+  <meta property="og:site_name" content="Brennan's Digital Marketing Portfolio" />
+  <meta property="og:url" content="{{ $canonical }}" />
+  <meta property="og:description" content="{{ $description }}" />
+  <meta property="og:type" content="{{ if $isArticle }}article{{ else }}website{{ end }}" />
+  <meta property="og:image" content="{{ $ogImage | absURL }}" />
+  {{ if eq $ogImage "images/opengraph.jpg" }}
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="{{ $ogTitle }}" />
+  {{ end }}
+  {{ if $isArticle }}
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" />
+  <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" />
+  <meta property="article:author" content="Brennan Kenneth Brown" />
+  {{ end }}
+
+  {{ "<!-- Twitter Card -->" | safeHTML }}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ $ogTitle }}" />
+  <meta name="twitter:description" content="{{ $description }}" />
+  <meta name="twitter:image" content="{{ $ogImage | absURL }}" />
+  <meta name="twitter:image:alt" content="{{ $ogTitle }}" />
+
   {{ "<!-- Slick Carousel -->" | safeHTML }}
   <link rel="stylesheet" href="{{ "plugins/slick/slick.css" | absURL }}" />
   <link rel="stylesheet" href="{{ "plugins/slick/slick-theme.css" | absURL }}" />
   {{ "<!-- Font Awesome -->" | safeHTML }}
   <link rel="stylesheet" href="{{ "plugins/font-awesome/css/font-awesome.min.css" | absURL }}" />
+  {{ "<!-- Font Awesome 6 (brand icons for Skills section) -->" | safeHTML }}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   {{ "<!-- Magnific Popup -->" | safeHTML }}
   <link rel="stylesheet" href="{{"plugins/magnafic-popup/magnific-popup.css" | absURL }}" />
@@ -21,13 +74,15 @@
   {{ "<!-- Stylesheets -->" | safeHTML }}
   {{ $style := resources.Get "scss/style.scss" | css.Sass (dict "targetPath" "css/style.css" "outputStyle" "compressed") | minify }}
   <link href="{{ $style.Permalink }}" rel="stylesheet" />
+  {{ range site.Params.custom_css }}
+  <link rel="stylesheet" href="{{ . | absURL }}" />
+  {{ end }}
 
   {{ "<!--Favicon-->" | safeHTML }}
-  <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
-  <link rel="icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/apple-touch-icon.png" | absURL }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon-32x32.png" | absURL}}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ "images/favicon-16x16.png" | absURL}}">
+  <link rel="icon" type="image/png" href="{{ "favicon/favicon-96x96.png" | absURL }}" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="{{ "favicon/favicon.svg" | absURL }}" />
+  <link rel="shortcut icon" href="{{ "favicon/favicon.ico" | absURL }}" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "favicon/apple-touch-icon.png" | absURL }}">
   <link rel="manifest" href="/site.webmanifest">
   {{ with site.Params.googleAnalytics }}
   {{ "<!-- Google Analytics -->" | safeHTML }}
@@ -40,11 +95,61 @@
     gtag( 'config', '{{ . }}' );
   </script>
   {{ end }}
-  <meta property="og:title" content="Brennan Kenneth Brown: Digital Marketer & Web Developer">
-  <meta property="og:site_name" content="Brennan's Digital Marketing Portfolio">
-  <meta property="og:url" content="https://brennanbrown.ca" />
-  <meta property="og:description" content="Looking for content strategy or JAMStack web development in the Alberta area
-    and beyond? Look no further. Hi, I'm Brennan. I'm a 29-year-old Métis digital marketer and open-source webdev.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://i.postimg.cc/c4ZxN9WT/marketing-website.png">
+
+  {{ "<!-- Structured Data (JSON-LD) -->" | safeHTML }}
+  {{ $socials := slice }}
+  {{ range site.Params.social }}{{ if not (hasPrefix .url "mailto:") }}{{ $socials = $socials | append .url }}{{ end }}{{ end }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "{{ site.BaseURL }}#person",
+        "name": "Brennan Kenneth Brown",
+        "url": "{{ site.BaseURL }}",
+        "image": "{{ "images/about/about-img.jpg" | absURL }}",
+        "jobTitle": "Digital Marketer & Web Developer",
+        "description": "{{ site.Params.description | safeJS }}",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Calgary",
+          "addressRegion": "AB",
+          "addressCountry": "CA"
+        },
+        "sameAs": [{{ range $i, $u := $socials }}{{ if $i }}, {{ end }}"{{ $u }}"{{ end }}]
+      },
+      {{ if .IsHome }}
+      {
+        "@type": "WebSite",
+        "@id": "{{ site.BaseURL }}#website",
+        "url": "{{ site.BaseURL }}",
+        "name": "{{ site.Title | safeJS }}",
+        "description": "{{ site.Params.description | safeJS }}",
+        "inLanguage": "{{ site.Language.Lang }}",
+        "publisher": { "@id": "{{ site.BaseURL }}#person" }
+      }
+      {{ else }}
+      {
+        "@type": "WebPage",
+        "@id": "{{ .Permalink }}#webpage",
+        "url": "{{ $canonical }}",
+        "name": "{{ $ogTitle | safeJS }}",
+        "description": "{{ $description | safeJS }}",
+        "inLanguage": "{{ site.Language.Lang }}",
+        {{ if not .Date.IsZero }}"datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+        "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",{{ end }}
+        "isPartOf": { "@id": "{{ site.BaseURL }}#website" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.BaseURL }}" },
+            { "@type": "ListItem", "position": 2, "name": "{{ .Title | safeJS }}", "item": "{{ .Permalink }}" }
+          ]
+        }
+      }
+      {{ end }}
+    ]
+  }
+  </script>
 </head>

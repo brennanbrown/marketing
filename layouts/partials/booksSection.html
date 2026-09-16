@@ -1,4 +1,4 @@
-{{ with .Site.Data.booksSection }}
+{{ with hugo.Data.booksSection }}
 {{ if .enable }}
 <section class="section books" id="books" style="position:relative; overflow-x:hidden;">
 	<div class="books__shape">
@@ -25,7 +25,7 @@
 			{{ range first 3 .books }}
 			<div class="col-lg-4 mb-4">
 				<div class="books__item bg-white rounded shadow-lg overflow-hidden h-100">
-					<div class="books__item-cover" style="height: 350px; overflow: hidden; background: #f3f4f6;">
+					<div class="books__item-cover" style="height: 500px; overflow: hidden; background: #f3f4f6;">
 						<img src="{{ .image | absURL }}" alt="{{ .title }}" style="width: 100%; height: 100%; object-fit: cover;">
 					</div>
 					<div class="books__item-content p-4">
@@ -37,7 +37,7 @@
 						<p class="small mb-3">{{ .excerpt }}</p>
 						<div class="books__item-links">
 							<a href="{{ .amazonURL }}" target="_blank" class="btn btn-sm btn-dark btn-zoom me-2 mb-2">
-								<i class="fa fa-amazon"></i> Amazon
+								<i class="fa-brands fa-amazon"></i> Amazon
 							</a>
 							{{ if .gumroadURL }}
 							<a href="{{ .gumroadURL }}" target="_blank" class="btn btn-sm btn-outline-dark btn-zoom mb-2">

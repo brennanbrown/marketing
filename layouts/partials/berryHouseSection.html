@@ -1,4 +1,4 @@
-{{ with .Site.Data.berryHouseSection }}
+{{ with hugo.Data.berryHouseSection }}
 {{ if .enable }}
 <section class="section berryhouse" id="berryhouse" style="position:relative; overflow-x:hidden;">
 	<div class="berryhouse__shape">
@@ -13,9 +13,9 @@
 					<span class="top-title pre-line" style="color: #dc2626;">{{ .topTitle }}</span>
 					{{ .title | markdownify }}
 					{{ .content | markdownify }}
-					<div class="berryhouse__buttons mt-4">
-						<a href="{{ .buttonURL }}" class="btn btn-primary btn-zoom mb-3 mb-sm-0" style="margin-right: 1rem; background-color: #dc2626; border-color: #dc2626;">{{ .buttonName }}</a>
-						<a href="{{ .secondaryButtonURL | absURL }}" class="btn btn-outline-secondary btn-zoom">{{ .secondaryButtonName }}</a>
+					<div class="berryhouse__buttons mt-4 d-flex flex-wrap">
+						<a href="{{ .buttonURL }}" class="btn btn-primary btn-zoom mr-3 mb-2" style="background-color: #dc2626; border-color: #dc2626;">{{ .buttonName }}</a>
+						<a href="{{ .secondaryButtonURL | absURL }}" class="btn btn-outline-secondary btn-zoom mb-2">{{ .secondaryButtonName }}</a>
 					</div>
 				</div>
 			</div>

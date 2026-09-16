@@ -1,0 +1,28 @@
+{{ with hugo.Data.techStackSection }}
+{{ if .enable }}
+<section class="section tech-stack" id="tech-stack" style="background: #f9fafb;">
+	<div class="container">
+		<div class="row mb-5">
+			<div class="col-lg-12">
+				<span class="top-title pre-line">{{ .topTitle }}</span>
+				{{ .title | markdownify }}
+			</div>
+		</div>
+
+		{{ range .categories }}
+		<div class="tech-stack__category mb-4">
+			<h5 class="mb-3">{{ .name }}</h5>
+			<div class="d-flex flex-wrap">
+				{{ range .skills }}
+				<a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="tech-stack__item d-flex align-items-center bg-white rounded shadow-sm mr-3 mb-3 px-3 py-2" style="text-decoration: none; color: inherit;">
+					<i class="{{ .icon }} mr-2" style="color: {{ .color }};"></i>
+					<span>{{ .name }}</span>
+				</a>
+				{{ end }}
+			</div>
+		</div>
+		{{ end }}
+	</div>
+</section>
+{{ end }}
+{{ end }}
