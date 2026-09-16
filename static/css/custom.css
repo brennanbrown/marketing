@@ -1,0 +1,45 @@
+/* Custom site styles */
+
+/* Page content sections (stats, tiers, support, etc.) */
+.content h2 {
+  margin-top: 3rem;
+}
+
+/* Tables in content pages */
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0 3rem;
+}
+
+.content th,
+.content td {
+  border: 1px solid #dee2e6;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.content thead th {
+  background-color: #f1f3f5;
+}
+
+.content tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+/* Writing sample cards: clear the overhanging content box (bottom: -100px).
+   The theme only adds clearance below 991px; desktop needs it too. */
+@media (min-width: 992px) {
+  .blog-preview__item {
+    margin-bottom: 140px;
+  }
+}
+
+/* Berry House CTA buttons side-by-side */
+@media (min-width: 992px) {
+  .berryhouse__buttons .btn {
+    font-size: 1rem;
+    padding: 0.5rem 0.9rem;
+    white-space: nowrap;
+  }
+}
