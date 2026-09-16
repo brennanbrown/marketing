@@ -25,7 +25,7 @@ For more information or to get in touch: [editor@writeclub.ca](mailto:editor@wri
 <img src="/images/books/prairie-boyspirit.jpg" alt="PRAIRIE BOYSPIRIT book cover" style="float: right; margin-left: 20px; margin-bottom: 20px; max-width: 200px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 **Paperback** • 50 pages • ISBN: 979-8303372290  
-**Rating:** ⭐ 5.0/5 (1 rating)
+**Rating:** <i class="fa-solid fa-star" style="color:#f59e0b;"></i> 5.0/5 (1 rating)
 
 A Queer Métis writer bleeds truth onto the page, confronting addiction, white-passingness, and cultural displacement while burning sage from crystal shops and praying to a God that's equal parts Catholic guilt and Cree cosmology. In this debut collection of linked essays, Brown maps the invisible territories where Indigenous and settler identities collide and coalesce, where ceremony bleeds into survival, and where the wild refuses to be forgotten. Through lyric prose cutting as deep as prairie frost, Brown chronicles his journey as a Queer Métis man navigating urban landscapes and ancestral memories.
 
@@ -76,7 +76,7 @@ What does a 19th-century Russian novel have to do with today? In "Your Brothers 
 <img src="/images/books/a-collection-of-filth.jpg" alt="A Collection of Filth book cover" style="float: right; margin-left: 20px; margin-bottom: 20px; max-width: 200px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 **Paperback** • 100 pages • ISBN: 979-8884162167  
-**Rating:** ⭐ 4.8/5 (6 ratings)  
+**Rating:** <i class="fa-solid fa-star" style="color:#f59e0b;"></i> 4.8/5 (6 ratings)  
 **Author:** Danaë Webb • **Foreword by:** Brennan Kenneth Brown  
 **Contributors:** Write Club & 7 more
 
@@ -91,7 +91,7 @@ A daring anthology written by Mount Royal University's Write Club—a foray into
 <img src="/images/books/weight-of-yr-heart.jpg" alt="The Weight of Yr Heart book cover" style="float: right; margin-left: 20px; margin-bottom: 20px; max-width: 200px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 **Paperback** • 54 pages • ISBN: 979-8872139089  
-**Rating:** ⭐ 5.0/5 (1 rating)
+**Rating:** <i class="fa-solid fa-star" style="color:#f59e0b;"></i> 5.0/5 (1 rating)
 
 A collection of thirty-seven love poems centered around a transcendental love for his partner Connie. This chapbook examines the tender complexities of relationships through surreal imagery and vulnerability. Brown's spare yet resonant verses chart the topography of devotion—moments of joy, desire, doubt, comfort, and more. These love letters are steeped in symbolism, weaving themes of fate, gravity, and more. The Weight of Yr Heart is a melodic, bittersweet ode made all the more poignant for its ephemerality—love as butterfly wings, gossamer yet heavy with meaning.
 
@@ -116,7 +116,7 @@ This debut chapbook is a series of confessional poetry and outsider art, the cul
 <img src="/images/books/dogwood-verses.jpg" alt="THE DOGWOOD VERSES book cover" style="float: right; margin-left: 20px; margin-bottom: 20px; max-width: 200px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 **Paperback** • 587 pages • ISBN: 979-8468498743  
-**Rating:** ⭐ 4.8/5  
+**Rating:** <i class="fa-solid fa-star" style="color:#f59e0b;"></i> 4.8/5  
 **Foreword by:** Yaishal Aslam
 
 For the past ten years, debut author and lifelong poet Brennan Kenneth Brown has carefully and, in secret, been crafting THE DOGWOOD VERSES. This anthology of poetry has over 300 different individual works, including selected prose and essays, and is comprised of four smaller books written over the past decade: The Juvenila (2011 — 2013), The Hyacinth Boy (2014 — 2017), The Pine Chapter (2018 — 2020), and The Last Call (2020 — 2021). An inevitable cocktail of nostalgia, regret and love—those long, difficult nights when sentimentality took over any common sense. It is a slow-burn meditation on everything vital, everything that's keeping the author alive.

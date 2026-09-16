@@ -11,7 +11,7 @@ solution: Due to these unique challenges, I decided to embark on learning how to
 
 There are several different themes I have created over the years. For more information, visit the following:
 
-- 🗃️ [**Enjoyment Work**](https://github.com/brennanbrown/enjoyment-work): A Digital Garden to capture daily thoughts and progress, as well as curated ideas with unique synthesis—a personal zettelkasten.
-- 🚰 [**Watery**](https://github.com/brennanbrown/watery): A minimalist, bare-bones theme for Jekyll only using the Water.css framework while still following the best practices for accessibility and search-engine optimization.
-- 📓 [**Purelog**](https://github.com/brennanbrown/purelog): A responsive sidebar Jekyll theme using the Pure.css framework, designed for writers and bloggers of all kinds.
-- 🎏 [**Classic Spirits**](https://github.com/brennanbrown/classic-spirits): A classic sidebar Jekyll theme for old-school blogging, created with the Bulma framework.
+- <i class="fa-solid fa-box-archive"></i> [**Enjoyment Work**](https://github.com/brennanbrown/enjoyment-work): A Digital Garden to capture daily thoughts and progress, as well as curated ideas with unique synthesis—a personal zettelkasten.
+- <i class="fa-solid fa-droplet"></i> [**Watery**](https://github.com/brennanbrown/watery): A minimalist, bare-bones theme for Jekyll only using the Water.css framework while still following the best practices for accessibility and search-engine optimization.
+- <i class="fa-solid fa-book"></i> [**Purelog**](https://github.com/brennanbrown/purelog): A responsive sidebar Jekyll theme using the Pure.css framework, designed for writers and bloggers of all kinds.
+- <i class="fa-solid fa-ghost"></i> [**Classic Spirits**](https://github.com/brennanbrown/classic-spirits): A classic sidebar Jekyll theme for old-school blogging, created with the Bulma framework.
