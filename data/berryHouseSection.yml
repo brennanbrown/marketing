@@ -1,6 +1,6 @@
 ---
 enable: true
-topTitle: 🍓 BERRY HOUSE
+topTitle: BERRY HOUSE
 title: >
   ## Work With Berry House
 
@@ -27,7 +27,7 @@ content: >
 
 buttonName: Get in Touch with Berry House
 buttonURL: "https://berryhouse.ca"
-secondaryButtonName: Or Contact Brennan Directly
+secondaryButtonName: Contact Brennan Directly
 secondaryButtonURL: contact
 image: "images/berryhouse/strawberry-collective.png"
 backgroundColor: "#dc2626"  # Red color for Berry House section

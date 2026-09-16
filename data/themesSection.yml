@@ -2,7 +2,7 @@
 enable: true
 topTitle: BLOG THEMES & TEMPLATES
 title: >
-  ## Jekyll & Eleventy Themes
+  ## Jekyll, Hugo, & 11ty Themes
 
   Free, open-source themes for modern blogging and digital gardens.
 
@@ -16,13 +16,12 @@ themes:
     demoURL: "https://enjoyment-work.netlify.app"
     repoURL: "https://github.com/brennanbrown/enjoyment-work"
 
-  - title: "11ty Gamification"
-    image: "images/portfolio/11ty-gamification-live.png"
-    description: "Gamified Eleventy blog theme with badges, streaks, and writing progress tracking"
-    stars: 0
-    tech: "Eleventy, TypeScript, Tailwind"
-    demoURL: "https://11ty-gamification.netlify.app"
-    repoURL: "https://github.com/brennanbrown/11ty-Gamification"
+  - title: "Newsprint"
+    image: "images/portfolio/newsprint-live.png"
+    description: "Newsletter-first Eleventy theme with traditional newspaper aesthetics and multi-column layouts"
+    tech: "Eleventy, Tailwind CSS"
+    demoURL: "https://newsprint.netlify.app"
+    repoURL: "https://github.com/brennanbrown/newsprint"
 
   - title: "Campfire Hugo Theme"
     image: "images/portfolio/campfire-hugo-theme-live.png"
@@ -31,13 +30,12 @@ themes:
     demoURL: "https://campfire-hugo.netlify.app"
     repoURL: "https://github.com/brennanbrown/Campfire-Hugo-Theme"
 
-  - title: "Purelog"
-    image: "images/portfolio/purelog-live.png"
-    description: "Lightweight Jekyll theme with Pure.css for writers and bloggers"
-    stars: 34
-    tech: "Jekyll, Pure.css"
-    demoURL: "https://purelog.netlify.app"
-    repoURL: "https://github.com/brennanbrown/purelog"
+  - title: "Indiepaper"
+    image: "images/portfolio/indiepaper-live.png"
+    description: "Minimalist brutalist blog theme for Hugo with smolweb compliance and microformats2 support"
+    tech: "Hugo, Microformats2"
+    demoURL: "https://indiepaper.netlify.app"
+    repoURL: "https://github.com/brennanbrown/indiepaper"
 
   - title: "Watery"
     image: "images/portfolio/watery-live.png"

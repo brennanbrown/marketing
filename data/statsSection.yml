@@ -1,0 +1,42 @@
+---
+enable: true
+topTitle: PRESS & READERSHIP
+title: >
+  ## By the Numbers
+
+  Front-page Hacker News features, the most-upvoted post in Lobste.rs history, and readers in 184 countries across six continents.
+
+buttonName: See Full Stats & Press
+buttonTarget: stats
+
+stats:
+  - icon: "fa-solid fa-newspaper"
+    value: "2×"
+    label: "Front page of Hacker News"
+    detail: "[The End of Eleventy](https://news.ycombinator.com/item?id=47735535) (229 pts) and [Gemini, Gophers, and Fingers](https://news.ycombinator.com/item?id=48297467) (147 pts)"
+
+  - icon: "fa-solid fa-fire"
+    value: "#1"
+    label: "Most upvoted post ever on Lobste.rs"
+    detail: "[Normalized Fascism in Open Source: $12 Million Given to DHH](https://lobste.rs/s/ipy9xw/normalized_fascism_open_source_12) — 495 points, 475 comments"
+
+  - icon: "fa-solid fa-medal"
+    value: "#2"
+    label: "Highest upvoted blogger on Bubbles.town"
+    detail: "211 voters, 494 upvotes on the [Most Voted Blogs](https://bubbles.town/classics) list"
+
+  - icon: "fa-solid fa-eye"
+    value: "~270,000"
+    label: "Total views across Medium & brennan.day"
+    detail: "80.7K on Medium (Dec 2025–Aug 2026) + 198,242 on brennan.day (since Feb 2026)"
+
+  - icon: "fa-solid fa-earth-americas"
+    value: "184"
+    label: "Countries & territories reached"
+    detail: "Readers across all six inhabited continents"
+
+  - icon: "fa-solid fa-pen-nib"
+    value: "562K+"
+    label: "Words published on brennan.day"
+    detail: "+280 posts averaging 2,000 words each, since January 2025"
+---

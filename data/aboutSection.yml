@@ -1,31 +1,30 @@
 ---
 enable: true
-topTitle: Value-first Independent Web Developer and Author
+topTitle: Open-Source Web Developer and Author
 title: >
   ## About Me
 
-  I'm a Queer Métis poet, writer, and JAMstack developer working withn the hybrid of technology, creativity, and community.
+  I'm a Queer Red River Métis writer, and JAMstack developer who works within the hybrid of technology, creativity, and community.
 content: >
-  ## Who I Am, Holistically
+  ## I love writing and I love coding.
 
-  👋🏽 Hi there! I'm Brennan Kenneth Brown (my friends call me Kenny), and I'm a lot of things:
+  <i class="fa-solid fa-hand"></i> Hi there! I'm Brennan Kenneth Brown (my friends call me Kenny). I write daily and build in the open:
 
-  - 🍓 **Founder of [Berry House](https://berryhouse.ca)** — Building a more human-centric web through JAMstack development and compelling storytelling
+  - <i class="fa-solid fa-pen-nib"></i> **+500,000 words** across +280 posts, with 2,000 avg. words per post on [brennan.day](https://brennan.day) since January 2025
 
-  - ✊🏾 **Indigenous & Queer Voice** — Committed to empowering marginalized communities and centering stories that matter
+  - <i class="fa-solid fa-keyboard"></i> **1,400+ hours** logged coding since 2017 via [WakaTime](https://wakatime.com/@brennan). Markdown, HTML, JavaScript, CSS, and Python
 
-  - 📚 **[Published Author](https://www.amazon.ca/stores/author/B0DQTPYKHD)** — Nine books of poetry and essays exploring identity, love, faith, and the human experience
+  - <i class="fa-solid fa-laptop-code"></i> **[Open-Source Contributor](https://github.com/brennanbrown)**: Created 30+ free Jekyll/Eleventy/Hugo themes and tools used by developers worldwide
 
-  - 💻 **[Open-Source Contributor](https://github.com/brennanbrown)** — Created 30+ free Jekyll/Eleventy themes and tools used by developers worldwide
+  - <i class="fa-solid fa-briefcase"></i> **Founder of [Berry House](https://berryhouse.ca)**: Building a more human-centric web through JAMstack development and compelling storytelling
 
-  - ♟️ **Competitive Chess Player** — 1900 ELO bullet chess on [Lichess](https://lichess.org/@/brennankbrown) (17,918 rated games and counting)
+  - <i class="fa-solid fa-book-open"></i> **[Published Author](https://www.amazon.ca/stores/author/B0DQTPYKHD)**: Nine independent books of poetry and essays exploring identity, love, faith, and the human experience
 
-  - 🎓 **English Honours Graduate** — Mount Royal University, 3.8 GPA, founder of [Write Club](https://writeclub.ca) creative writing community
+  - <i class="fa-solid fa-hand-fist"></i> **Indigenous & Queer Voice**: Committed to empowering marginalized communities and centering stories that matter
 
-  - 🌐 **Former Hospice Cook, Hospital Custodian, and Crisis Support** — My background informs everything I create
+  - <i class="fa-solid fa-graduation-cap"></i> **English Honours Graduate**: Mount Royal University, 3.8 GPA, founder of [Write Club](https://writeclub.ca) creative writing community
 
-
-  I don't fit neatly into boxes, and I'm okay with that. Whether I'm building accessible websites, writing confessional poetry, supporting someone in crisis, or playing speed chess at 2 AM—it's all part of who I am.
+  <hr/>My sites are static, fast, and framework-light. Eleventy, Hugo, and Jekyll for generation. Nunjucks and Go templates for layouts. Markdown and YAML for content. Custom CSS with no heavy frameworks. See my [colophon](https://brennan.day/colophon/) for an example of how my sites are built.
 
 button1Name: Work with Berry House
 button2Name: Or Contact Me Directly

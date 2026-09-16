@@ -58,25 +58,51 @@ experience:
 
       #### [Berry House](https://berryhouse.ca)
 
-      - Founded a social enterprise dedicated to reclaiming the internet from algorithm-driven homogeneity through JAMstack web development and compelling digital writing.
+      - Dual-mission model: corporate rates fund pro-bono web development for nonprofits and marginalized communities, across the Jekyll, Eleventy, and Hugo ecosystems.
 
-      - Provide professional web development services (Hugo, Eleventy, Jekyll) to corporate clients at market rates while offering accessible pay-what-you-can support to non-profits and marginalized communities.
+      - Deliver 95+ Google Lighthouse scores (performance, accessibility, SEO, best practices), with 60–80% load time reductions for WordPress → JAMstack migrations.
 
-      - Champion digital autonomy, creativity, and meaningful web experiences through consultation, custom development, content strategy, and storytelling workshops.
+      - Build and maintain IndieWeb-compliant open-source starters and tools (jekyll-audit CLI, Markdown-to-DOCX, Meddler) with Webmentions, Microformats, and RSS support.
 
-      - Build and maintain open-source JAMstack themes and tools, contributing to the IndieWeb and Digital Gardens ecosystems.
-    time: January 2025 — Present
+      - Deployed [fanfiction.lol](https://fanfiction.lol), an independent fanfiction archive forked from the AO3 (OTW-Archive) codebase, on a Ruby on Rails 8 stack with MariaDB, Elasticsearch, Redis, and Docker Compose.
+    time: August 2025 — Present
   - content: >
-      ### Founder
+      ### Full-stack Web Developer
 
-      #### [Write Club](https://writeclub.ca)
+      #### [folk.zone](https://folk.zone)
 
-      - Founded and facilitated weekly meetings fostering a vibrant learning community of over 100 members, focusing on improving creative writing skills and promoting intellectual diversity.
+      - Sole operator of an IndieWeb commons: 15+ free, open-source federated services self-hosted on consumer hardware, including Mastodon, Forgejo, Lemmy, FreshRSS, WriteFreely, and BookWyrm.
 
-      - Served as President from September 2022 — June 2025, leading fundraising events for the Canadian Children's Literacy Foundation and organizing author readings, poetry slams, bookstore collaborations, and indie anthology publishing.
+      - Architected a single Docker Compose stack with Caddy reverse proxy, automatic Let's Encrypt TLS, and Authentik SSO across all services.
 
-      - Developed and manage the digital publication featuring members' creative writing pieces and club updates, expanding reach beyond university with multiple social media marketing campaigns.
-    time: September 2022 — Present
+      - Replaced Cloudflare with Caddy + Porkbun DNS to align infrastructure with IndieWeb data-sovereignty values.
+
+      - Built and deployed an Eleventy (11ty) static homepage with a full custom brand system, style guide, and technical deployment documentation.
+    time: January 2026 — Present
+  - content: >
+      ### Independent Journalist & Publisher
+
+      #### [Medium](https://blog.brennanbrown.ca) / [brennan.day](https://brennan.day)
+
+      - Authored 300+ longform articles spanning literary criticism, Indigenous studies, disability representation, creative writing craft, digital minimalism, web development, and personal essays.
+
+      - Featured on the front page of Hacker News twice: ["The End of Eleventy"](https://news.ycombinator.com/item?id=47735535) and ["Gemini, Gophers, and Fingers"](https://news.ycombinator.com/item?id=48297467).
+
+      - Built and maintain [brennan.day](https://brennan.day), a production IndieWeb publication built from scratch with Eleventy, Nunjucks, and vanilla CSS, scoring 9/9 on the [IndieWeb protocol checker](https://scan.fyi) (Webmentions, Micropub, IndieAuth, WebSub, Microformats2, RSS/JSON feeds).
+
+      - Improved Lighthouse mobile score from 65 to 95 through critical CSS inlining, DOM batching, image optimization, and migration to inline SVG sprites.
+    time: December 2015 — Present
+  - content: >
+      ### Lead Instructor
+
+      #### [Fireweed Writing School](https://fireweed.school)
+
+      - Anti-racist, student-centered online writing school focused on craft, discipline, and community-based learning.
+
+      - Designed bi-weekly workshop curriculum covering imagist techniques, revision processes, and publication pathways.
+
+      - Facilitate live 2-hour workshops with small cohorts using Critical Response Process peer critique methodology.
+    time: January 2026 — Present
   - content: >
       ### Technical Writer & Productivity Analyst
 
@@ -91,37 +117,29 @@ experience:
       - Integrated multiple tracking APIs and automation tools (RescueTime, IFTTT, GitHub API, Fitbit) to create comprehensive data pipeline for self-quantification.
     time: February 2020 — January 2022
   - content: >
-      ### Growth Marketing Program
+      ### Book Author
 
-      #### [OnRamp / 321 Growth Academy](https://joinonramp.com)
+      #### [Amazon Kindle Direct Publishing](https://www.amazon.ca/stores/author/B0DQTPYKHD)
 
-      - Created detailed buyer personas and mapping sales journey funnel & content strategy.
-      
-      - Identified target metrics using HubSpot CRM to support ongoing performance.
-      
-      - Researched and wrote original articles for thought leadership and reinforcing the unique
-      value proposition and addressing reader's pain points - leading to sales generation.
+      - Published 9 independent books (poetry chapbooks, essay collections, memoir) totaling 1,500+ pages.
 
-      - Designed lean email and social media campaigns to convert long-time subscribers into
-      qualified prospects.
+      - Works span confessional poetry, Indigenous identity, literary criticism, and experimental writing, sustaining 4.8–5.0 star ratings across all titles.
 
-    time: May 2022 — September 2022
+      - Editor and foreword contributor for the *On the Fringe* anthologies, featuring 20+ emerging writers.
+    time: September 2021 — Present
   - content: >
-      ### WordPress Developer / Content Writer
+      ### Founder and President
 
-      #### [The Wander Notebook](https://web.archive.org/web/20220222030145/https://wandernotebook.com/)
+      #### [Write Club](https://writeclub.ca)
 
-      - Researched, ideated, & published essays on productivity, self-development, happiness.
+      - Founded and facilitated weekly meetings fostering a vibrant learning community of over 100 members, focusing on improving creative writing skills and promoting intellectual diversity.
 
-      - Specialized in marketing with SEO keyword strategy, lead generation, and conversion
-      rate optimization.
+      - Served as President, leading fundraising events for the Canadian Children's Literacy Foundation and organizing author readings, poetry slams, bookstore collaborations, and indie anthology publishing.
 
-      - Focused on value proposition development and personal branding.
-
-      - Initially began on Medium, migrating to custom-built WordPress site.
-    time: September 2020 — December 2022
+      - Built [writeclub.ca](https://writeclub.ca) on Jekyll with a focus on accessibility, complete visual identity, and community engagement.
+    time: September 2022 — June 2025
   - content: >
-      ### Crisis Support Volunteer
+      ### Crisis Support Listener
 
       #### [7 Cups](https://www.7cups.com)
 
@@ -129,10 +147,30 @@ experience:
 
       - Engaged in 790+ support chats, directly assisting 249+ individuals with their emotional well-being, sustaining a 5-star rating backed by 84 individual ratings and 19 detailed written reviews.
 
-      - Accumulated 37,842 Cheers (a measure of gratitude and impact) and a Compassion Score of 3,015, ranking among the platform's top contributors.
-
       - Attained "Advanced Listener Level 5" certification by progressing through 105 specialized training steps.
-    time: October 2015 — Present
+    time: August 2020 — August 2025
+  - content: >
+      ### Marketing Intern
+
+      #### [OnRamp Fellowship](https://joinonramp.com)
+
+      - Completed intensive 12-week marketing fellowship focused on digital marketing strategies and campaign development.
+
+      - Developed comprehensive marketing plans for local businesses and nonprofit organizations.
+
+      - Created content calendars, social media strategies, and email marketing campaigns.
+    time: October 2022 — December 2022
+  - content: >
+      ### Full Stack Developer
+
+      #### [InceptionU Fellowship](https://inceptionu.com)
+
+      - Experimental program focused on full-stack development in a collaborative learning environment.
+
+      - Studied Vanilla JavaScript, React.js, Node.js, Python, Flask, PostgreSQL, and C#.
+
+      - Practiced Test Driven Development, pair programming, debugging, and wireframing within agile methods.
+    time: February 2020 — August 2020
   - content: >
       ### Sous Chef
 

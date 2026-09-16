@@ -4,15 +4,119 @@ topTitle: Read some of my articles, essays, and stories.
 title: >
   ## Writing Portfolio
 
-  I write in a wide variety of genres and topics. From personal essays to practical guides on productivity and content creation, each piece reflects my dedication to being thoughtful and impactful.
+  I write in a wide variety of genres and topics. From lyric essays and cultural criticism to practical IndieWeb tutorials for developers, each piece reflects my dedication to meaningful storytelling and helping others.
 
 content: >
   ### Find My Writing Across the Web
 
-  - 📝 **[Medium Blog](https://blog.brennanbrown.ca)** — Long-form essays on productivity, tech, and self-development
+  - <i class="fa-brands fa-medium"></i> **[Medium Blog](https://blog.brennanbrown.ca)**: Long-form essays on productivity, tech, and self-development
 
-  - 🌸 **[Poetry on Tumblr](https://bkpoetry.com)** — Confessional poetry and creative writing
+  - <i class="fa-solid fa-sun"></i> **[brennan.day](https://brennan.day)**: My independent IndieWeb publication, built with 11ty.
 
-  - 🦋 **Microessays** — Follow me on [Bluesky](https://bsky.app/profile/brennan.bsky.social), [Threads](https://www.threads.net/@brennankbrown), and [Mastodon](https://social.lol/@brennan)
+  - <i class="fa-brands fa-tumblr"></i> **[Poetry on Tumblr](https://bkpoetry.com)**: Free-verse, experimental and creative writing
 
 buttonTarget: blog
+
+sections:
+  - name: "Creative writing"
+    blurb: "Lyric essays and cultural criticism. Full archive at [brennan.day/archive](https://brennan.day/archive)."
+    posts:
+      - image: "images/essays/webmaster.jpg"
+        imageAlt: "A digitally collaged, retro-internet-inspired graphic with oversized white text reading 'WEBMASTER@manifesto' over a distorted Windows 95-era desktop interface with chromatic aberration."
+        date: "August 2026"
+        title: "WEBMASTER@ a manifesto"
+        url: "https://brennan.day/webmaster-a-manifesto-for-everyone/"
+        description: "I'm reclaiming the title of \"webmaster\" as the multidisciplinary creator who designs, develops, writes, and advocates for their own corner of the web and will save the world. Tracing the history from 1993 to the present, I argue that anyone can become a webmaster with minimal tools. Webmastery is an act of digital repatriation and human agency against corporate platforms and AI orchestration."
+        tags: "indieweb, web-history, digital-sovereignty"
+
+      - image: "images/essays/grain-elevator.jpg"
+        imageAlt: "A white wooden grain elevator marked 'SASKATCHEWAN' in a small prairie town under a clear blue sky, with a gravel road running along the foreground."
+        date: "April 2026"
+        title: "GRAIN ELEVATOR COUNTRY"
+        url: "https://brennan.day/grain-elevator-country/"
+        description: "A fifteen-hour road trip across Saskatchewan with my brother, watching the prairie unfold through grain elevators and abandoned towns. The quiet weight of prairie masculinity, the failure of academic knowledge to translate into brotherly wisdom, and the architecture of goodwill found in midnight motels."
+        tags: "personal-essay, Métis, family"
+
+      - image: "images/essays/hello-world.jpg"
+        imageAlt: "A photograph of Earth from deep space, partially in shadow with a thin luminous blue atmospheric halo, Australia visible as a rust-coloured landmass."
+        date: "April 2026"
+        title: "That's Home. That's us."
+        url: "https://brennan.day/thats-home-thats-us/"
+        description: "We have the first human photograph of Earth from space in 54 years, and I can't help but meditate on what it means to be human on a fragile planet in 2026."
+        tags: "philosophy, environmental-justice, gratitude"
+
+      - image: "images/essays/ball_lightning.jpg"
+        imageAlt: "Hand-coloured 19th-century engraving of a glowing fireball hovering near a fireplace as four startled men in period suits react."
+        date: "August 2026"
+        title: "Our Skies Contain Sprites and Elves"
+        url: "https://brennan.day/our-skies-contain-sprites-elves-trolls-pixies-ghosts-and-gnomes/"
+        description: "Yes, really. Exploring the magical world of transient luminous events in the upper atmosphere: sprites, elves, blue jets, trolls, pixies, ghosts, and gnomes. How scientists named these barely-witnessed electrical phenomena after folklore, and why scientific wonder and awe are not opposed to rational inquiry but essential to it."
+        tags: "science, folklore, wonder"
+
+      - image: "images/essays/clown.jpg"
+        imageAlt: "Vintage-toned photo of a young woman in profile with clown-style face paint, a painted winking eye, standing before a plaza fountain."
+        date: "July 2026"
+        title: "THE CLOWN BURNOUT"
+        url: "https://brennan.day/clown-burnout/"
+        description: "Clown white doesn't come off in one pass. A personal story about how I can never take myself seriously no matter how hard I try. Notes on the history of whiteface and Auguste, the clown egg registry, the Indigenous medicine of laughter, the tyranny of irony, and what it costs to never learn how to come down."
+        tags: "personal-essay, Métis, humour"
+
+      - image: "images/essays/compulsion.jpg"
+        imageAlt: "Oil painting of a dark-haired young man writing intently at a small desk in a cluttered, sunlit room."
+        date: "June 2026"
+        title: "Writers Who Wrote The Most in History"
+        url: "https://brennan.day/compulsion-the-writers-who-wrote-the-most-in-history/"
+        description: "I've been writing publicly every day for seven months, and I wanted to know what that looked like for other compulsive writers. From Chesterton dictating past midnight, to Chinese web fiction authors racing through 10,000 words daily. What does their obsessive output reveal about the nature of writing itself? The volume isn't the point. The showing up is."
+        tags: "writing-craft, literary-history, research"
+
+  - name: "Technical writing"
+    blurb: "Tutorials and IndieWeb write-ups for developers who want to build their own independent sites."
+    posts:
+      - image: "images/essays/accessible.jpg"
+        imageAlt: "A stylized 1980s-style illustration of a wheelchair racer in motion, rendered in neon line art against bold graphic bands of colour."
+        date: "June 2026"
+        title: "Why Make Your Website Accessible?"
+        url: "https://brennan.day/why-make-your-website-accessible-anyways/"
+        description: "Web accessibility isn't compliance theatre or checking off a list. It's about designing for everyone. Exploring the curb cut effect, why disability is more common than we think, and practical steps to make your website usable by as many people as possible."
+        tags: "accessibility, indieweb, web-development"
+
+      - image: "images/essays/archives.jpg"
+        imageAlt: "Archival photograph of warehouse shelving divided into numbered bins holding machine parts, tinted with a diagonal rainbow colour cast."
+        date: "September 2026"
+        title: "Oldnets and Altnets: Gemini and Gopher"
+        url: "https://brennan.day/oldnets-and-altnets-a-guide-to-building-a-low-spec-daily-internet-out-of-gemini-gopher-and-terminal-tools/"
+        description: "Reacting to the Omarchy and DigitalOcean news, I set out a curated low-spec, text-first alternative to the modern web: Gemini, Gopher, Spartan, Lynx-friendly sites, terminal readers, public Unix communities, and peer-to-peer networks like Yggdrasil, I2P, and Hyphanet."
+        tags: "small-web, indieweb, retrocomputing"
+
+      - image: "images/essays/scholar.jpg"
+        imageAlt: "Northern Renaissance oil painting of an elderly bearded scholar in a red robe, seated at a cluttered desk with an hourglass, candle, and manuscripts."
+        date: "August 2026"
+        title: "Becoming a Rogue Scholar"
+        url: "https://brennan.day/a-guide-to-becoming-a-rogue-scholar/"
+        description: "I've been weighing grad school against continuing my own open-access publication, so I wrote a guide to becoming a \"Rogue Scholar\" using ORCID, citation metadata, issue numbers, print CSS, and Wayback Machine archiving to try to make my static Eleventy site as citable, permanent, and discoverable as institutional scholarship."
+        tags: "digital-humanities, eleventy, open-access"
+
+      - image: "images/essays/webmentions.jpg"
+        imageAlt: "Hand-coloured 19th-century political cartoon of a crowded room of men in formal coats debating around a table, with numbered speech balloons rising above the group."
+        date: "June 2026"
+        title: "How Webmentions Work on brennan.day"
+        url: "https://brennan.day/how-webmentions-work-on-brennan-day/"
+        description: "A tutorial and walkthrough of how I implemented webmentions on my site, from setup to display, including webmention.io integration, Eleventy filters, CSS styling, and Bridgy for sending."
+        tags: "indieweb, eleventy, webmentions"
+
+      - image: "images/essays/noir-server.jpg"
+        imageAlt: "A server room with multiple open rack cabinets filled with densely packed hardware, illuminated by dramatic amber, pink, green, and blue lighting."
+        date: "May 2026"
+        title: "Homelabbing For Beginners"
+        url: "https://brennan.day/homelab-for-the-beginner-you-can-self-host-your-own-server-on-50-hardware/"
+        description: "A beginner-friendly guide to building your own homelab on inexpensive hardware. Covers finding old computers, setting up Linux, SSH, Docker, and self-hosting services like password managers, RSS readers, and your own Fediverse instance. Digital sovereignty doesn't require expensive equipment."
+        tags: "self-hosting, homelab, linux"
+
+      - image: "images/essays/garden.jpg"
+        imageAlt: "Screenshot of the brennan.click homepage, a dark-themed digital garden site with wiki-links, bookmarks, and dated notes sections."
+        date: "July 2026"
+        title: "Making a Digital Garden in 11ty"
+        url: "https://brennan.day/creating-a-digital-garden-in-11ty-tracking-my-daily-word-count-with-urlminder/"
+        description: "I decided to build brennan.click, a wiki-linked digital commonplace book in Eleventy, with auto-generated stubs created with eleventy-plugin-interlinker, pure-CSS hover transclusion and footnotes with no JavaScript, and a plain-text /urlminder.txt feed that drives a Beeminder goal."
+        tags: "eleventy, digital-garden, tutorial"
+---

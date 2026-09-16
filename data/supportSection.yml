@@ -9,13 +9,15 @@ content: >
   I've been creating **free and open-source software** (FOSS) for years—Jekyll themes, Eleventy starters, web development tools, and extensive documentation—all available at no cost. Your support helps me dedicate more time to building accessible tools, writing educational content, and contributing to the IndieWeb and JAMstack communities.
 
 
-  ### Ways to Support
+  ### The Toonie Club <i class="fa-solid fa-coins"></i>
 
-  - **☕ Ko-fi:** One-time tips or monthly support starting at $3/month
-  
-  - **💖 GitHub Sponsors:** Support my open-source development directly on GitHub
-  
-  - **🎨 Patreon:** Join my community with exclusive perks and behind-the-scenes content
+  One simple tier, full access for everyone: **$2 CAD per month** (or pay whatever you want). No expensive gated content or confusing tiers—just simple, sustainable support.
+
+  - **<i class="fa-solid fa-mug-saucer"></i> Ko-fi:** Join the Toonie Club or leave a one-time tip — recommended
+
+  - **<i class="fa-brands fa-github"></i> GitHub Sponsors:** Support my open-source development directly on GitHub
+
+  - **<i class="fa-brands fa-patreon"></i> Patreon:** Toonie Club membership on a traditional platform
 
 
   Every contribution, no matter how small, makes a meaningful difference and helps me continue making the web a more creative, accessible, and human-centric space.
@@ -26,4 +28,4 @@ content: >
 kofiURL: "https://ko-fi.com/brennan"
 githubSponsorsURL: "https://github.com/sponsors/brennanbrown"
 patreonURL: "https://patreon.com/brennankbrown"
-tiersURL: "/support"
+supportURL: "/support"
