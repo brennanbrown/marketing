@@ -1,7 +1,7 @@
 baseURL = "https://brennanbrown.ca/"
-languageCode = "en-us"
+locale = "en-us"
 theme = "portio"
-title = "Writing, Marketing & Tech"
+title = "Writing, & Open-source Tech"
 
 [pagination]
 pagerSize = 6
@@ -52,6 +52,7 @@ weight = 4
 
 [params]
 blogPageURL = "writing"
+description = "Looking for content strategy or JAMStack web development in the Alberta area and beyond? Look no further. Hi, I'm Brennan. I'm a 29-year-old Métis digital marketer and open-source webdev."
 contactLink = "contact"
 copyright = "All Rights Reserved. Copyright © Brennan Kenneth Brown 2020 -- 2025"
 footerLogo = "images/contact/footer-logo.png"
@@ -75,40 +76,40 @@ latitude = "51.047310"
 longitude = "-114.057970"
 pinImage = "images/pin.png"
 
-# Social icons
+# Social icons (Font Awesome 6 classes)
 [[params.social]]
-icon = "fa-globe"
+icon = "fa-solid fa-globe"
 url = "https://brennan.day"
 weight = 1
 [[params.social]]
-icon = "fa-github-alt"
+icon = "fa-brands fa-github-alt"
 url = "https://www.github.com/brennanbrown"
 weight = 2
 [[params.social]]
-icon = "fa-linkedin"
+icon = "fa-brands fa-linkedin"
 url = "https://www.linkedin.com/in/brennankbrown"
 weight = 3
 [[params.social]]
-icon = "fa-tumblr"
+icon = "fa-brands fa-tumblr"
 url = "https://bkpoetry.com/"
 weight = 4
 [[params.social]]
-icon = "fa-medium"
+icon = "fa-brands fa-medium"
 url = "https://blog.brennanbrown.ca"
 weight = 5
 [[params.social]]
-icon = "fa-cloud"
+icon = "fa-brands fa-bluesky"
 url = "https://bsky.app/profile/brennan.bsky.social"
 weight = 6
 [[params.social]]
-icon = "fa-mastodon"
+icon = "fa-brands fa-mastodon"
 url = "https://social.lol/@brennan"
 weight = 7
 [[params.social]]
-icon = "fa-graduation-cap"
+icon = "fa-solid fa-graduation-cap"
 url = "https://www.researchgate.net/profile/Brennan-Brown-2"
 weight = 8
 [[params.social]]
-icon = "fa-envelope"
+icon = "fa-solid fa-envelope"
 url = "mailto:mail@brennanbrown.ca"
 weight = 9

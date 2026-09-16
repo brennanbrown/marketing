@@ -4,7 +4,7 @@
   <p align="center">
     An in-depth showcase of my marketing work, experience, and case studies.
     <br />
-    <a href="https://github.com/brennanbrown/marketing/blob/master/README.md"><strong>Explore the docs »</strong></a>
+    <a href="docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <b><a href="https://brennanbrown.ca">View Site</a></b>
@@ -13,6 +13,9 @@
     ·
     <a href="https://github.com/brennanbrown/marketing/issues">Request Feature</a>
   </p>
+
+<p align="center">
+  <a href="https://brennanbrown.ca"><img src="static/images/opengraph.jpg" alt="Brennan Kenneth Brown: Digital Marketer & Web Developer" width="600"></a>
 </p>
 
 <!-- BADGES -->
@@ -27,12 +30,14 @@
 **Table of Contents:**
 
 - [About The Project](#about-the-project)
-- [Built With](#built-with)
+  - [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+- [Usage, Roadmap and Contributing](#usage-roadmap-and-contributing)
 - [License](#license)
-- [Contact](#contact-and-acknowledgements)
+- [Contact and Acknowledgements](#contact-and-acknowledgements)
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -51,7 +56,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-- Hugo
+- Hugo Extended (v0.166.0 is used in production — see `netlify.toml`)
   ```sh
   brew install hugo
   ```
@@ -62,11 +67,7 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/brennanbrown/marketing.git
    ```
-2. Install Hugo themes
-   ```sh
-   git submodule update --init --recursive
-   ```
-3. Run the server
+2. Run the server (the Portio theme is vendored in `themes/`, no submodules needed)
    ```sh
    hugo server
    ```
@@ -78,17 +79,15 @@ For more examples, please refer to the [Documentation](https://gohugo.io/documen
 
 See the [open issues](https://github.com/brennanbrown/marketing/issues) for a list of proposed features (and known issues).
 
-Please read [CONTRIBUTING.md](https://github.com/brennanbrown/marketing/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
 <!-- LICENSE -->
 ## License
 
-This project is licensed under the GNU Affero General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU Affero General Public License v3.0, see the [LICENSE](LICENSE) file for details.
 
 <!-- CONTACT -->
 ## Contact and Acknowledgements
 
-Brennan Brown - [@brennankennethbrown](https://instagram.com/brennankennethbrown) - mail@brennanbrown.ca
+Brennan Brown: [brennan.day](https://brennan.day) | [@brennan@social.lol](https://social.lol/@brennan) | mail@brennanbrown.ca
 
 Project Link: [https://github.com/brennanbrown/marketing](https://github.com/brennanbrown/marketing)
 
