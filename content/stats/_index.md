@@ -13,7 +13,7 @@ A look at the reach of my writing across platforms, plus a few notable moments o
 - **On the front page of Hacker News twice:**
   - [The End of Eleventy](https://news.ycombinator.com/item?id=47735535) — 229 points by ValentineC, 189 comments
   - [Gemini, Gophers, and Fingers: Oh My! Alternative Internets Beyond HTTPS](https://news.ycombinator.com/item?id=48297467) — 147 points by ChrisArchitect, 86 comments
-- **My most upvoted post ever on [Lobste.rs](https://lobste.rs/s/ipy9xw/normalized_fascism_open_source_12):** [Normalized Fascism in Open Source: $12 Million Given to DHH](https://lobste.rs/s/ipy9xw/normalized_fascism_open_source_12) — 495 points, 475 comments (+559, 73 off-topic, 2 spam)
+- **My most upvoted post ever on [Lobste.rs](https://lobste.rs/s/ipy9xw/normalized_fascism_open_source_12):** [Widely discussed essay on open-source ethics](https://lobste.rs/s/ipy9xw/normalized_fascism_open_source_12) — 495 points, 475 comments (+559, 73 off-topic, 2 spam)
 - **2nd highest upvoted blogger on [bubbles.town](https://bubbles.town/classics)** — Most Voted Blogs: 211 voters, 494 upvotes (behind *Happily Imperfect* at 187 voters, 652 upvotes)
 
 ## <i class="fa-solid fa-chart-line"></i> Total Views and Reads
