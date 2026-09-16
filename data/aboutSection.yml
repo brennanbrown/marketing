@@ -24,7 +24,7 @@ content: >
 
   - <i class="fa-solid fa-graduation-cap"></i> **English Honours Graduate**: Mount Royal University, 3.8 GPA, founder of [Write Club](https://writeclub.ca) creative writing community
 
-  <hr/>My sites are static, fast, and framework-light. Eleventy, Hugo, and Jekyll for generation. Nunjucks and Go templates for layouts. Markdown and YAML for content. Custom CSS with no heavy frameworks. See my [colophon](https://brennan.day/colophon/) for an example of how my sites are built.
+  <hr/>My sites are fast and framework-light. Eleventy, Hugo, and Jekyll for generation. Nunjucks and Go templates for layouts. Markdown and YAML for content. Vanilla CSS with no heavy frameworks. We can make the Internet simple and human.
 
 button1Name: Work with Berry House
 button2Name: Or Contact Me Directly
