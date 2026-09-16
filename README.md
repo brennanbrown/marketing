@@ -1,10 +1,8 @@
 <!-- PROJECT -->
-  <h3 align="center">Brennan's Marketing Portfolio</h3>
+  <h3 align="center">Brennan's Portfolio</h3>
 
   <p align="center">
     A detailed showcase of my work, experience, and case studies.
-    <br />
-    <a href="docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <b><a href="https://brennanbrown.ca">View Site</a></b>
@@ -23,7 +21,7 @@
 <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/66fbd415-64d4-4b9a-81c8-6c6eeb6602fe/deploy-status">
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/brennanbrown/marketing"> 
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brennanbrown/marketing"> 
-<img alt="GitHub license" src="https://img.shields.io/github/license/brennanbrown/marketing"> 
+<a href="LICENSE"><img alt="License: AGPL-3.0" src="https://img.shields.io/badge/license-AGPL--3.0-blue"></a>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -31,9 +29,14 @@
 
 - [About The Project](#about-the-project)
   - [Built With](#built-with)
+- [Features](#features)
+- [Site Sections](#site-sections)
+  - [Pages](#pages)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Deployment](#deployment)
 - [Usage, Roadmap and Contributing](#usage-roadmap-and-contributing)
 - [License](#license)
 - [Contact and Acknowledgements](#contact-and-acknowledgements)
@@ -49,6 +52,52 @@ Here's my marketing portfolio, reflecting a modern, sophisticated, and professio
 - [Netlify](https://netlify.com/)
 - Inspired by [Portio Template](https://staticmania.com/products/portio)
 
+<!-- FEATURES -->
+## Features
+
+- Portfolio case studies, writing archive, projects, books, stats, and support sections driven by YAML data files
+- Contact form handled by Netlify Forms (no serverless functions required)
+- [Decap CMS](https://decapcms.org/) for content editing at `/admin`
+- RSS feed, JSON-LD structured data, Open Graph and Twitter Card metadata
+- Microblogging page at `/microblogging`
+
+<!-- SITE SECTIONS -->
+## Site Sections
+
+The homepage is assembled from section partials (`layouts/partials/`) rendered in order, each populated by a matching YAML file in `data/`:
+
+1. **Hero**: banner intro
+2. **About Me**: bio and portrait
+3. **Work With Berry House**: studio/freelance pitch
+4. **Skills**: tech stack icon grid
+5. **Help Keep My FOSS Work Free & Accessible**: support callout
+6. **My Books**: published books
+7. **Writing Portfolio**: featured writing, linking to `/blog/`
+8. **By the Numbers**: metrics and press highlights
+9. **Jekyll, Hugo, & 11ty Themes**: released SSG themes
+10. **Apps, Tools & Websites**: selected projects
+11. **My Resume**: links out to [cv.brennanbrown.ca](https://cv.brennanbrown.ca)
+12. **Testimonials** from others
+13. **My Skills**: "why hire me" and skillsets
+14. **My Services**: services offered
+15. Bottom banner linking to [brennan.day](https://brennan.day)
+
+### Pages
+
+| Page | Source | Notes |
+| ---- | ------ | ----- |
+| `/portfolio/` | `content/portfolio/` | Case studies, each with its own page |
+| `/projects/` | `content/projects/` | Apps, tools & websites |
+| `/themes/` | `content/themes/` | Jekyll, Hugo & 11ty themes |
+| `/books/` | `content/books/` | Books |
+| `/stats/` | `content/stats/` | Metrics & press |
+| `/support/` | `content/support/` | Ways to support the work |
+| `/blog/` | `content/blog/` | Writing portfolio: posts canonical to external publications |
+| `/contact/` | `content/contact/` | Netlify Forms contact page |
+| `/microblogging/` | `static/microblogging/` | Static microblog page |
+| `/admin/` | `static/admin/` | Decap CMS |
+| `/Resume.pdf` | `static/Resume.pdf` | Resume PDF |
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -56,7 +105,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-- Hugo Extended (v0.166.0 is used in production — see `netlify.toml`)
+- Hugo Extended (v0.166.0 is used in production: see `netlify.toml`)
   ```sh
   brew install hugo
   ```
@@ -71,6 +120,24 @@ To get a local copy up and running follow these simple steps.
    ```sh
    hugo server
    ```
+
+<!-- PROJECT STRUCTURE -->
+## Project Structure
+
+```
+├── assets/scss/      # Sass styles, compiled via Hugo Pipes
+├── content/          # Page content (blog, portfolio, projects, etc.)
+├── data/             # YAML data files driving the homepage sections
+├── layouts/          # Templates and partials (override the theme)
+├── static/           # Images, favicons, Decap CMS admin, microblogging
+├── themes/portio/    # Vendored Portio theme
+└── netlify.toml      # Netlify build config (Hugo 0.166.0, Node 22)
+```
+
+<!-- DEPLOYMENT -->
+## Deployment
+
+Deployed to [Netlify](https://netlify.com/) via `netlify.toml`. `hugo` builds to `public/` with Hugo 0.166.0 and Node 22 pinned. Deploy previews are generated for pull requests, and contact forms use Netlify Forms.
 
 <!-- USAGE -->
 ## Usage, Roadmap and Contributing
