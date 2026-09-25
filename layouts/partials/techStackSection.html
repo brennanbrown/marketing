@@ -14,8 +14,8 @@
 			<h5 class="mb-3">{{ .name }}</h5>
 			<div class="d-flex flex-wrap">
 				{{ range .skills }}
-				<a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="tech-stack__item d-flex align-items-center bg-white rounded shadow-sm mr-3 mb-3 px-3 py-2" style="text-decoration: none; color: inherit;">
-					<i class="{{ .icon }} mr-2" style="color: {{ .color }};"></i>
+				<a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="tech-stack__item d-flex align-items-center bg-white rounded shadow-sm mr-3 mb-3 px-3 py-2" data-accent="{{ .color }}">
+					<i class="{{ .icon }} mr-2"></i>
 					<span>{{ .name }}</span>
 				</a>
 				{{ end }}
@@ -23,6 +23,11 @@
 		</div>
 		{{ end }}
 	</div>
+	<script>
+		document.querySelectorAll(".tech-stack__item[data-accent]").forEach(function (item) {
+			item.style.setProperty("--accent", item.dataset.accent);
+		});
+	</script>
 </section>
 {{ end }}
 {{ end }}

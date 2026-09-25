@@ -9,4 +9,4 @@ challenge: Many aspiring writers and literary enthusiasts often struggle to find
 solution: As the Founder and Program Coordinator of Write Club, I have developed and facilitated weekly meetings aimed at fostering a vibrant learning community of over 100 members. These meetings focus on improving creative writing skills and promoting intellectual diversity. I have also led and organized various fundraising events, including author readings, local poetry slams, bookstore collaborations, and indie anthology publishing. Furthermore, I manage the digital publication, featuring members' creative writing pieces and club updates, effectively expanding our reach beyond the university and maintaining engagement through multiple social media marketing campaigns.
 ---
 
-If you're interested in learning more about Write Club, visit the [website](https://writeclub.ca).
+If you're interested in learning more about Write Club, visit the [website](https://writeclub.netlify.app).

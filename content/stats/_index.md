@@ -11,14 +11,14 @@ A look at the reach of my writing across platforms, plus a few notable moments o
 ## <i class="fa-solid fa-trophy"></i> Press Highlights
 
 - **On the front page of Hacker News twice:**
-  - [The End of Eleventy](https://news.ycombinator.com/item?id=47735535) — 229 points by ValentineC, 189 comments
-  - [Gemini, Gophers, and Fingers: Oh My! Alternative Internets Beyond HTTPS](https://news.ycombinator.com/item?id=48297467) — 147 points by ChrisArchitect, 86 comments
-- **My most upvoted post ever on [Lobste.rs](https://lobste.rs/s/ipy9xw/normalized_fascism_open_source_12):** [Widely discussed essay on open-source ethics](https://lobste.rs/s/ipy9xw/normalized_fascism_open_source_12) — 495 points, 475 comments (+559, 73 off-topic, 2 spam)
-- **2nd highest upvoted blogger on [bubbles.town](https://bubbles.town/classics)** — Most Voted Blogs: 211 voters, 494 upvotes (behind *Happily Imperfect* at 187 voters, 652 upvotes)
+  - [The End of Eleventy](https://news.ycombinator.com/item?id=47735535): 229 points by ValentineC, 189 comments
+  - [Gemini, Gophers, and Fingers: Oh My! Alternative Internets Beyond HTTPS](https://news.ycombinator.com/item?id=48297467): 147 points by ChrisArchitect, 86 comments
+- **My most upvoted post ever on [Lobste.rs](https://lobste.rs/s/ipy9xw/normalized_fascism_open_source_12):** [Widely discussed essay on open-source ethics](https://lobste.rs/s/ipy9xw/normalized_fascism_open_source_12): 495 points, 475 comments (+559, 73 off-topic, 2 spam)
+- **2nd highest upvoted blogger on [bubbles.town](https://bubbles.town/classics)**: Most Voted Blogs: 211 voters, 494 upvotes
 
 ## <i class="fa-solid fa-chart-line"></i> Total Views and Reads
 
-**Umami and Neatstats both track `brennan.day`**, so their numbers overlap and should **not** be added together as unique traffic. Medium is separate (`blog.brennanbrown.ca`).
+**[Umami](https://umami.is/) and [Neatstats](https://neatstats.net/) both track [brennan.day](https://brennan.day)**, [Medium](https://medium.com) is separate ([blog.brennanbrown.ca](https://blog.brennanbrown.ca)).
 
 | Platform | Period | Views | Reads | Notes |
 |---|---:|---:|---:|---|
@@ -26,9 +26,9 @@ A look at the reach of my writing across platforms, plus a few notable moments o
 | Umami / brennan.day | Jan 4–Sep 16, 2026 | **149K** | n/a | 79.2K visitors; 96.1K visits; 81% bounce; 1m 6s duration |
 | Neatstats / brennan.day | since Feb 20, 2026 | **198,242** total views | n/a | Displayed chart total: 177,571 views; most recent view 5 min ago |
 
-**Combined view estimate:** Deduped using Neatstats for brennan.day: 80.7K + 198,242 = **~278.9K views**
+**Combined view estimate:** **~278.9K views**
 
-**Reads:** only Medium reports reads, so the known total is **~24,600 reads** for Dec 2025–Aug 2026.
+**Reads:** only Medium reports reads, known total is **~24,600 reads** for Dec 2025–Aug 2026.
 
 ## <i class="fa-solid fa-earth-americas"></i> Countries Visited From
 
@@ -57,21 +57,19 @@ Top countries from Neatstats:
 | Norway | 1,196 |
 | Singapore | 1,121 |
 
-Umami's top locations agree on the general pattern: US 29.9K / 50%, Canada 7.02K / 12%, UK 5.94K / 10%, Germany 4.83K / 8%, Singapore 2.52K / 4%.
-
-Visited from **184 countries/territories** in total (many of these are territories/dependencies, not sovereign states) across **all six inhabited continents**.
+Visited from **184 countries/territories** in total across **all six inhabited continents**.
 
 ## <i class="fa-solid fa-pen-nib"></i> Writing Output
 
-- **1,966** average words per post
-- **562,165** total words written
-- **286** total posts published on [brennan.day](https://brennan.day) since January 2025
+- **2,000** average words per post
+- **+560,00** total words written
+- **+280** total posts published on [brennan.day](https://brennan.day) since January 2025
 
 ## ⌨️ Coding Time
 
 Tracked via [WakaTime](https://wakatime.com/@brennan) from August 18, 2017 to September 14, 2026:
 
-**Total Time: 1,428 hrs 46 mins**
+**Total Time: +1,400 hrs**
 
 | Language | Time | % |
 |---|---:|---:|

@@ -21,7 +21,7 @@ education:
 
       - Member of the Golden Key Honour Society
 
-      - Founder of the Creative Writing Club (https://writeclub.ca)
+      - Founder of the Creative Writing Club (https://writeclub.netlify.app)
 
       - President from September 2022 — June 2025
 
@@ -130,13 +130,13 @@ experience:
   - content: >
       ### Founder and President
 
-      #### [Write Club](https://writeclub.ca)
+      #### [Write Club](https://writeclub.netlify.app)
 
       - Founded and facilitated weekly meetings fostering a vibrant learning community of over 100 members, focusing on improving creative writing skills and promoting intellectual diversity.
 
       - Served as President, leading fundraising events for the Canadian Children's Literacy Foundation and organizing author readings, poetry slams, bookstore collaborations, and indie anthology publishing.
 
-      - Built [writeclub.ca](https://writeclub.ca) on Jekyll with a focus on accessibility, complete visual identity, and community engagement.
+      - Built [writeclub.netlify.app](https://writeclub.netlify.app) on Jekyll with a focus on accessibility, complete visual identity, and community engagement.
     time: September 2022 — June 2025
   - content: >
       ### Crisis Support Listener

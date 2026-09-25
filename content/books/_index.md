@@ -12,9 +12,9 @@ Amazon Author Page: [Brennan Kenneth Brown](https://www.amazon.ca/stores/Brennan
 
 ## About the Author
 
-Brennan Kenneth Brown is a 29-year-old Queer Métis poet, essayist, and university undergraduate. In the past, he has worked as a hospice cook, content strategist, and FOSS web developer. Brown was born in Winnipeg, Manitoba and currently resides in Calgary, Alberta. He has previously written for Beeminder, the Writing Co-operative, and data science publications. Brown is also the founder of Write Club at Mount Royal University, a creative writing collective dedicated to building good community around local storytelling and fostering voice and identity.
+Brennan Kenneth Brown is a 30-year-old Queer Red River Métis poet, essayist, and university undergraduate. In the past, he has worked as a hospice cook, content strategist, and FOSS web developer. Brown was born in Winnipeg, Manitoba and currently resides in Calgary, Alberta. He has previously written for Beeminder, the Writing Co-operative, and data science publications. Brown is also the founder of Write Club at Mount Royal University, a creative writing collective dedicated to building good community around local storytelling and fostering voice and identity.
 
-For more information or to get in touch: [editor@writeclub.ca](mailto:editor@writeclub.ca) | [bkpoetry.com](https://bkpoetry.com/)
+For more information or to get in touch: [mail@brennanbrown.ca](mailto:mail@brennanbrown.ca) | [bkpoetry.com](https://bkpoetry.com/)
 
 ---
 
@@ -141,4 +141,4 @@ For over the past ten years, debut Canadian author Brennan Kenneth Brown has bee
 
 Mount Royal University's Write Club is a Creative Writing Club dedicated to nurturing the literary talents of Calgary, Alberta in a safe and inclusive environment. Whether you're an experienced writer or a beginner embarking on your creative journey, the club offers a supportive space to hone your craft, share your work, and connect with like-minded individuals.
 
-**Learn more:** [writeclub.ca](https://writeclub.ca) | Instagram: [@writeclubmru](https://instagram.com/writeclubmru)
+**Learn more:** [writeclub.netlify.app](https://writeclub.netlify.app) | Instagram: [@writeclubmru](https://instagram.com/writeclubmru)

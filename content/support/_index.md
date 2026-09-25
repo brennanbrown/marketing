@@ -44,7 +44,7 @@ Help my web development business, [Berry House](https://berryhouse.ca):
 - [Book a consultation](https://calendly.com/brennanbrown/consult) if it's you who needs the work done
 
 ### 4. Join the Community
-- Join [Write Club](https://writeclub.ca) if you're in Calgary
+- Join [Write Club](https://writeclub.netlify.app) if you're in Calgary
 - Subscribe via RSS to [brennan.day](https://brennan.day/feed.xml)
 - Follow me on social platforms (Bluesky, Mastodon, LinkedIn)
 
@@ -86,4 +86,4 @@ Every share, star, comment, or contribution helps create a sustainable alternati
 
 ---
 
-*Thank you for your support, no matter what it looks like.* <i class="fa-solid fa-heart" style="color:#3b82f6;"></i>
+*Thank you for your support, no matter what it looks like!* <i class="fa-solid fa-heart" style="color:#3b82f6;"></i>

@@ -22,7 +22,7 @@ content: >
 
   - <i class="fa-solid fa-hand-fist"></i> **Indigenous & Queer Voice**: Committed to empowering marginalized communities and centering stories that matter
 
-  - <i class="fa-solid fa-graduation-cap"></i> **English Honours Graduate**: Mount Royal University, 3.8 GPA, founder of [Write Club](https://writeclub.ca) creative writing community
+  - <i class="fa-solid fa-graduation-cap"></i> **English Honours Graduate**: Mount Royal University, 3.8 GPA, founder of [Write Club](https://writeclub.netlify.app) creative writing community
 
   <hr/>My sites are fast and framework-light. Eleventy, Hugo, and Jekyll for generation. Nunjucks and Go templates for layouts. Markdown and YAML for content. Vanilla CSS with no heavy frameworks. We can make the Internet simple and human.
 

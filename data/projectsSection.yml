@@ -280,7 +280,7 @@ projects:
     image: "images/portfolio/writeclub-live.png"
     description: "Official website for Mount Royal University’s Creative Writing Club. A safe, inclusive space for writers with prompts, activities, resources, and event info."
     tech: "Jekyll, HTML, CSS, SCSS"
-    demoURL: "https://writeclub.ca"
+    demoURL: "https://writeclub.netlify.app"
     repoURL: "https://github.com/brennanbrown/WriteClub"
 
   - title: "Kindread the Poet"
