@@ -122,3 +122,13 @@
     animation: none;
   }
 }
+
+/* About section: links on the dark navy card need a lighter blue for contrast */
+.about_content-inner a:not(.btn) {
+  color: #9cb3ff;
+}
+
+.about_content-inner a:not(.btn):hover,
+.about_content-inner a:not(.btn):focus-visible {
+  color: #c3d1ff;
+}
